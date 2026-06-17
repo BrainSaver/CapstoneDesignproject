@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b281e37e863f699409a288966ba9f2e6, type: 3}
+  m_Name: AirTable
+  m_EditorClassIdentifier: Assembly-CSharp::EventData
+  eventTitle: "\uC5D0\uC5B4 \uBC25\uC0C1"
+  eventImage: {fileID: 21300000, guid: ad2335e693006d44698c3e49853b9d9a, type: 3}
+  eventText: "\uB2F9\uC2E0\uC740 \uC9D1\uC744 \uBC29\uBB38\uD558\uC790 \uC544\uBB34\uAC83\uB3C4
+    \uC5C6\uB294 \uBC14\uB2E5\uC704\uC5D0 \uAC11\uC790\uAE30 \uBCF4\uC77C\uB9AC\uC5C6\uB294
+    \uC2DD\uC0AC\uC758 \uD615\uC0C1\uC774 \uBCF4\uC774\uAE30 \uC2DC\uC791\uD569\uB2C8\uB2E4."
+  choices:
+  - choiceTitle: "\uC790\uB9AC\uC5D0 \uC549\uB294\uB2E4"
+    choiceDescription: "\uC5D0\uC5B4 \uC2A4\uD29C \uCE74\uB4DC 1\uC7A5\uC744 \uC5BB\uB294\uB2E4"
+    effects:
+    - effectType: 5
+      effectAmount: 1
+      stringData: Air Miso Soup
+  - choiceTitle: "\uBC25\uC0C1\uC744 \uC5CE\uB294\uB2E4"
+    choiceDescription: "\uCD5C\uB300\uCCB4\uB825\uC744 5 \uC783\uB294\uB2E4 \uC9C0\uC815\uD55C
+      \n\uCE74\uB4DC \uD55C\uC7A5 \uC0AD\uC81C"
+    effects:
+    - effectType: 11
+      effectAmount: 5
+      stringData: 
+    - effectType: 6
+      effectAmount: 1
+      stringData: Choice

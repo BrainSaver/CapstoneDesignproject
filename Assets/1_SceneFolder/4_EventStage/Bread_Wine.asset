@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b281e37e863f699409a288966ba9f2e6, type: 3}
+  m_Name: Bread_Wine
+  m_EditorClassIdentifier: Assembly-CSharp::EventData
+  eventTitle: "\uBC84\uB824\uC9C4 \uC218\uB3C4\uC6D0\uC758 \uC2DD\uB2F9 "
+  eventImage: {fileID: 21300000, guid: ab2f0f80962c74f488fc18c49c7aa773, type: 3}
+  eventText: "\uC624\uB798\uB41C \uC2DD\uD0C1 \uC704\uC5D0 \uC369\uC9C0 \uC54A\uC740
+    \uBE75\uACFC \uD3EC\uB3C4\uC8FC\uAC00 \uB193\uC5EC \uC788\uC2B5\uB2C8\uB2E4.
+    \uAE08\uBC29\uC774\uB77C\uB3C4 \uB204\uAD70\uAC00 \uB3CC\uC544\uC62C \uAC83 \uAC19\uC2B5\uB2C8\uB2E4.\r\n"
+  choices:
+  - choiceTitle: "\uC74C\uC2DD\uC744 \uBA39\uB294\uB2E4"
+    choiceDescription: "\uBAA8\uB4E0 \uCCB4\uB825 \uD68C\uBCF5\uD558\uC9C0\uB9CC
+      \uBB34\uC791\uC704 \uCE74\uB4DC 2\uC7A5\uC774 \uC5F4\uD654 \uB429\uB2C8\uB2E4\r\n"
+    effects:
+    - effectType: 1
+      effectAmount: 9999
+      stringData: 
+    - effectType: 12
+      effectAmount: 2
+      stringData: Random
+  - choiceTitle: "\uC790\uB9AC\uB97C \uB5A0\uB09C\uB2E4 "
+    choiceDescription: "\uC544\uBB34\uC77C\uB3C4 \uC77C\uC5B4\uB098\uC9C0 \uC54A\uB294\uB2E4."
+    effects: []

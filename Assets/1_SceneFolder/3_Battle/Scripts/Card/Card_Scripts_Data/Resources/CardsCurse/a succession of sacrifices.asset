@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7614c6396bec38f449ae70ce878091d9, type: 3}
+  m_Name: a succession of sacrifices
+  m_EditorClassIdentifier: Assembly-CSharp::Card
+  resourcePath: 
+  cardName: "\uC774\uC5B4\uC838\uC628 \uD76C\uC0DD"
+  cardDescription: "\uC0AC\uC6A9\uBD88\uAC00\n\uC774\uCE74\uB4DC\uAC00 \uC190\uD328\uC5D0\uC788\uC73C\uBA74
+    \uB0A8\uC740 \uCE74\uB4DC \uB9CC\uD07C \uD53C\uD574\uB97C \uC785\uB294\uB2E4."
+  cardType: 2
+  cardSprite: {fileID: 21300000, guid: 3ca4f55482cf6444993d7a25eeb87c0c, type: 3}
+  energyCost: 0
+  cardRarity: 0
+  exhaustAfterUse: 0
+  moveAmount: 0
+  minRange: 1
+  maxRange: 3
+  effects:
+  - effectType: 37
+    amount: 1
+    duration: 0
+    floatValue: 0
+    effectCard: {fileID: 0}
+    cardPool: []
+    applyToAll: 0
+    targetType: 2
+    hitCount: 1
+  targetType: 0
+  isEventOnly: 1
+  isInnate: 0
+  isSnecko: 0
+  bonusDamageMultiplier: 1
+  bonusBlockMultiplier: 1

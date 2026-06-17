@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b281e37e863f699409a288966ba9f2e6, type: 3}
+  m_Name: Swamp_area
+  m_EditorClassIdentifier: Assembly-CSharp::EventData
+  eventTitle: "\uBCF4\uBB3C\uC774 \uAC00\uB4DD\uD55C \uB2AA\uC9C0\uB300"
+  eventImage: {fileID: 21300000, guid: b2777c897d1a0c7469029512384045b0, type: 3}
+  eventText: "\uB2AA\uC9C0\uB300 \uC544\uB798\uC5D0 \uB9CE\uC740 \uBCF4\uBB3C\uB4E4\uC774
+    \uBCF4\uC785\uB2C8\uB2E4. \uC2DC\uB3C4\uD558\uBA74 \uB2E4\uCE60\uAEBC \uAC19\uC9C0\uB9CC
+    \uAF64\uB098 \uB9E4\uB825\uC801\uC785\uB2C8\uB2E4.\r\n"
+  choices:
+  - choiceTitle: "\uBCF4\uBB3C\uC744 \uAEBC\uB0B8\uB2E4"
+    choiceDescription: "30%\uC758 \uD655\uB960\uB85C \uB79C\uB364\uD55C \uC720\uBB3C\uC744
+      \uC5BB\uAC70\uB098 5\uC758 \uD53C\uD574\uB97C \uC785\uB294\uB2E4."
+    effects:
+    - effectType: 14
+      effectAmount: 30
+      stringData: GainRelicRandom:1/Damage:5
+  - choiceTitle: "\uB5A0\uB09C\uB2E4"
+    choiceDescription: "\uD68D\uB4DD\uD55C \uC720\uBB3C\uC744 \uAC00\uC9C0\uACE0
+      \uB5A0\uB09C\uB2E4"
+    effects: []

@@ -1,0 +1,270 @@
+{
+  "ConsecrationItem": [
+    {
+      "ConsecrationItemId": "aspergorium",
+      "nameKo": "성수 병",
+      "nameEn": "Aspergorium",
+      "rarity": "Common",
+      "description": "적에게 10의 피해를 준다."
+    },
+    {
+      "ConsecrationItemId": "blessedAshes",
+      "nameKo": "재",
+      "nameEn": "Blessed Ashes",
+      "rarity": "Common",
+      "description": "플레이어에게 방어력 15를 부여한다."
+    },
+    {
+      "ConsecrationItemId": "stJohnsWort",
+      "nameKo": "성 요한의 풀",
+      "nameEn": "St. John's Wort",
+      "rarity": "Common",
+      "description": "플레이어에게 부여된 해로운 상태 이상을 모두 제거한다.\n체력을 5 회복한다."
+    },
+    {
+      "ConsecrationItemId": "handfulOfConsecratedSalt",
+      "nameKo": "축성된 소금 한 줌",
+      "nameEn": "Handful of Consecrated Salt",
+      "rarity": "Common",
+      "description": "적 전체에게 약화(적의 공격 데미지 감소)를 2턴 동안 부여한다."
+    },
+    {
+      "ConsecrationItemId": "lumpOfFrankincense",
+      "nameKo": "유향 덩어리",
+      "nameEn": "Lump of Frankincense",
+      "rarity": "Common",
+      "description": "즉시 카드 2장을 뽑는다.\n이번 턴에 사용할 다음 카드의 코스트가 1 감소한다."
+    },
+    {
+      "ConsecrationItemId": "inquisitorsJournal",
+      "nameKo": "이단 심문관의 수첩",
+      "nameEn": "Inquisitor's Journal",
+      "rarity": "Common",
+      "description": "선택한 적에게 취약(받는 피해 증가)을 2턴 동안 부여한다."
+    },
+    {
+      "ConsecrationItemId": "blessedSilverCross",
+      "nameKo": "축복받은 은 십자가",
+      "nameEn": "Blessed Silver Cross",
+      "rarity": "Common",
+      "description": "적의 방어도를 무시하고 15의 피해를 준다."
+    },
+    {
+      "ConsecrationItemId": "flagellantsWhip",
+      "nameKo": "참회자의 채찍",
+      "nameEn": "Flagellant's Whip",
+      "rarity": "Common",
+      "description": "플레이어는 3의 피해를 입는다.\n즉시 2의 에너지(코스트)를 획득한다."
+    },
+    {
+      "ConsecrationItemId": "purifyingHolyBell",
+      "nameKo": "정화의 성종",
+      "nameEn": "Purifying Holy Bell",
+      "rarity": "Common",
+      "description": "플레이어의 디버프 상태를 1회 제거한다.\n모든 적에게 5의 피해를 준다."
+    },
+    {
+      "ConsecrationItemId": "featherOfSaintMichael",
+      "nameKo": "성 미카엘의 깃털",
+      "nameEn": "Feather of Saint Michael",
+      "rarity": "Common",
+      "description": "즉시 근거리 ↔ 원거리 위치를 원하는 거리로 변경한다.\n카드 1장 드로우."
+    },
+    {
+      "ConsecrationItemId": "blessedBread",
+      "nameKo": "축복받은 빵",
+      "nameEn": "Blessed Bread",
+      "rarity": "Common",
+      "description": "체력 10 회복."
+    },
+    {
+      "ConsecrationItemId": "monasteryRations",
+      "nameKo": "수도원의 비상 식량",
+      "nameEn": "Monastery Rations",
+      "rarity": "Common",
+      "description": "에너지 1 획득.\n카드 1장 드로우."
+    },
+    {
+      "ConsecrationItemId": "consecratedNail",
+      "nameKo": "축성된 못",
+      "nameEn": "Consecrated Nail",
+      "rarity": "Common",
+      "description": "다음턴 적의 공격력 9감소"
+    },
+    {
+      "ConsecrationItemId": "sootStainedCandelabrum",
+      "nameKo": "그을릿 촛대",
+      "nameEn": "Soot-Stained Candelabrum",
+      "rarity": "Common",
+      "description": "전체적에게 3데미지\n1드로우"
+    },
+    {
+      "ConsecrationItemId": "saintsHourglass",
+      "nameKo": "성자의 모래시계",
+      "nameEn": "Saint's Hourglass",
+      "rarity": "Common",
+      "description": "이번 턴 종료 시, 패에 있는 카드 보존"
+    },
+    {
+      "ConsecrationItemId": "martyrsCloth",
+      "nameKo": "순교자의 피가 묻은 천",
+      "nameEn": "Martyr's Cloth",
+      "rarity": "Rare",
+      "description": "다음 턴까지 플레이어가 받는 피해를 1회 완전히 무효화한다."
+    },
+    {
+      "ConsecrationItemId": "holyOil",
+      "nameKo": "거룩한 성유",
+      "nameEn": "Holy Oil",
+      "rarity": "Rare",
+      "description": "손패의 카드 1장을 선택한다.\n이번 턴 동안 해당 카드의 사용 비용(코스트)이 0이 된다."
+    },
+    {
+      "ConsecrationItemId": "votiveBeeswaxCandle",
+      "nameKo": "봉헌용 밀랍 양초",
+      "nameEn": "Votive Beeswax Candle",
+      "rarity": "Rare",
+      "description": "손패의 카드 2장을 소멸시킨다.\n소멸시킨 카드 1장당 체력 2를 회복한다."
+    },
+    {
+      "ConsecrationItemId": "tornHymnSheet",
+      "nameKo": "찢어진 성가 악보",
+      "nameEn": "Torn Hymn Sheet",
+      "rarity": "Rare",
+      "description": "이번 턴에 사용하는 다음 스킬 카드 1장이 두 번 발동된다."
+    },
+    {
+      "ConsecrationItemId": "brokenHolyIconFragment",
+      "nameKo": "깨진 성상 조각",
+      "nameEn": "Broken Holy Icon Fragment",
+      "rarity": "Rare",
+      "description": "손패의 카드 1장을 선택한다.\n이번 전투 동안 해당 카드의 피해량이 50% 증가한다."
+    },
+    {
+      "ConsecrationItemId": "martyrsReliquary",
+      "nameKo": "순교자의 유골함",
+      "nameEn": "Martyr's Reliquary",
+      "rarity": "Rare",
+      "description": "카드 3장을 뽑는다."
+    },
+    {
+      "ConsecrationItemId": "sealedScripturePage",
+      "nameKo": "봉인된 성서의 한 페이지",
+      "nameEn": "Sealed Scripture Page",
+      "rarity": "Rare",
+      "description": "무작위 공격 카드 1장을 생성한다.\n이번 턴 동안 비용이 0이다."
+    },
+    {
+      "ConsecrationItemId": "demonHorn",
+      "nameKo": "악마의 뿔",
+      "nameEn": "Demon Horn",
+      "rarity": "Rare",
+      "description": "모든 적에게 취약 1턴 부여.\n모든 적에게 약화 1턴 부여."
+    },
+    {
+      "ConsecrationItemId": "brokenCrossFragment",
+      "nameKo": "부서진 십자가 조각",
+      "nameEn": "Broken Cross Fragment",
+      "rarity": "Rare",
+      "description": "이번 턴 동안 모든 공격이 방어도를 무시한다."
+    },
+    {
+      "ConsecrationItemId": "angelsQuill",
+      "nameKo": "천사의 깃펜",
+      "nameEn": "Angel's Quill",
+      "rarity": "Rare",
+      "description": "손패의 카드 1장을 복사한다.\n복사본은 이번 턴 종료 시 소멸한다."
+    },
+    {
+      "ConsecrationItemId": "archbishopsSalt",
+      "nameKo": "대주교의 소금",
+      "nameEn": "Archbishop's Salt",
+      "rarity": "Rare",
+      "description": "힘 2 획득.\n민첩 2 획득."
+    },
+    {
+      "ConsecrationItemId": "archangelsSeal",
+      "nameKo": "대천사의 인장",
+      "nameEn": "Archangel's Seal",
+      "rarity": "Rare",
+      "description": "손패를 모두 버린다.\n버린 카드 수만큼 카드를 뽑는다."
+    },
+    {
+      "ConsecrationItemId": "wornChaliceFragment",
+      "nameKo": "낡은 성배 파편",
+      "nameEn": "Worn Chalice Fragment",
+      "rarity": "Rare",
+      "description": "현재 방어도를 모두 잃는다.\n잃은 방어도의 2배만큼 무작위 적에게 피해를 준다."
+    },
+    {
+      "ConsecrationItemId": "pilgrimsMap",
+      "nameKo": "순례자의 지도",
+      "nameEn": "Pilgrim's Map",
+      "rarity": "Rare",
+      "description": "다음 3턴 동안 카드 1장 추가 드로우"
+    },
+    {
+      "ConsecrationItemId": "prayerForTheDeparted",
+      "nameKo": "망자의 기도문",
+      "nameEn": "Prayer for the Departed",
+      "rarity": "Rare",
+      "description": "버린 카드에서 카드 1장을 패로 가져오고 이번턴만 비용이 0"
+    },
+    {
+      "ConsecrationItemId": "penitentsThornGarment",
+      "nameKo": "고행자의 가시옷",
+      "nameEn": "Penitent's Thorn Garment",
+      "rarity": "Rare",
+      "description": "이번 턴에 플레이어를 공격하는 모든 적은 공격 1회당 4의 피해"
+    },
+    {
+      "ConsecrationItemId": "inquisitorsTorch",
+      "nameKo": "이단 심문관의 횃불",
+      "nameEn": "Inquisitor's Torch",
+      "rarity": "Rare",
+      "description": "적이 가진 모든 버프 제거"
+    },
+    {
+      "ConsecrationItemId": "angelsTrumpet",
+      "nameKo": "천사의 나팔",
+      "nameEn": "Angel's Trumpet",
+      "rarity": "Legendary",
+      "description": "모든 적에게 기절 1턴."
+    },
+    {
+      "ConsecrationItemId": "blessedShackles",
+      "nameKo": "축복받은 족쇄",
+      "nameEn": "Blessed Shackles",
+      "rarity": "Legendary",
+      "description": "선택한 적의 다음 행동을 취소한다."
+    },
+    {
+      "ConsecrationItemId": "portraitOfTheSaint",
+      "nameKo": "성녀의 초상화",
+      "nameEn": "Portrait of the Saint",
+      "rarity": "Legendary",
+      "description": "체력이 30% 이하라면 에너지 2 획득"
+    },
+    {
+      "ConsecrationItemId": "demonicRemains",
+      "nameKo": "악마의 유골",
+      "nameEn": "Demonic Remains",
+      "rarity": "Legendary",
+      "description": "이번 턴 힘 +5\n턴 종료 시 이번 전투동안 힘 -3"
+    },
+    {
+      "ConsecrationItemId": "fanaticsEmblem",
+      "nameKo": "광신의 증표",
+      "nameEn": "Fanatic's Emblem",
+      "rarity": "Legendary",
+      "description": "이번턴 다음 첫카드 피해량 2배\n다음턴 처음으로 받는 피해 2배"
+    },
+    {
+      "ConsecrationItemId": "coagulatedBlood",
+      "nameKo": "굳은 피",
+      "nameEn": "Coagulated Blood",
+      "rarity": "Legendary",
+      "description": "플레이어가 현재 잃은 체력 15당 1의 에너지를 획득"
+    }
+  ]
+}

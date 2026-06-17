@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7614c6396bec38f449ae70ce878091d9, type: 3}
+  m_Name: Generated Anyway
+  m_EditorClassIdentifier: Assembly-CSharp::CardData
+  resourcePath: 
+  cardName: "\uC544\uBB34\uD2BC \uC0DD\uC131\uB428"
+  cardDescription: "\uAC70\uB9AC\uC0C1\uAD00X\n\uBB34\uC791\uC704 \uC2A4\uD0AC\uCE74\uB4DC\uB97C
+    1\uC7A5 \uC5BB\uC2B5\uB2C8\uB2E4.\uC774\uBC88 \uD134 \uB3D9\uC548 \uADF8 \uCE74\uB4DC\uB97C
+    \uBE44\uC6A9 \uC5C6\uC774 \uC0AC\uC6A9\uD560 \uC218 \uC788\uC2B5\uB2C8\uB2E4."
+  cardType: 1
+  cardSprite: {fileID: 21300000, guid: e34de351fff47a84e90290cf860d7b3c, type: 3}
+  energyCost: 1
+  cardRarity: 0
+  exhaustAfterUse: 0
+  moveAmount: 0
+  minRange: 1
+  maxRange: 3
+  effects:
+  - effectType: 24
+    amount: 1
+    duration: 0
+    floatValue: 0
+    effectCard: {fileID: 0}
+    cardPool:
+    - {fileID: 11400000, guid: ce356dae6aa098048bd1170b2b5113a2, type: 2}
+    - {fileID: 11400000, guid: 4dcc6e630cf85fc408b59fb967f61188, type: 2}
+    - {fileID: 11400000, guid: d6881c345c8e90c448550c32a424cdc9, type: 2}
+    - {fileID: 11400000, guid: 8d99adae00e807649b92c4c8da67a0f6, type: 2}
+    - {fileID: 11400000, guid: 01ea6c66ca7e7ca4690deff6fa4f1620, type: 2}
+    - {fileID: 11400000, guid: 147b978c1e762c44b8ade842a6fb165a, type: 2}
+    - {fileID: 11400000}
+    - {fileID: 11400000, guid: abe43ae581ae8d44ba27e38bc896bfb3, type: 2}
+    - {fileID: 11400000, guid: c69db4a41917160419bd40cb8c7f855c, type: 2}
+    - {fileID: 11400000, guid: 899df6b149c81ba45928b5e0912d5191, type: 2}
+    - {fileID: 11400000, guid: d9d01875e514dfc46980bc8f8e7f740c, type: 2}
+    - {fileID: 11400000, guid: 9d612150079f3d04193c193f85182cbd, type: 2}
+    - {fileID: 11400000, guid: c414795fad3faeb4eadb673e4ead6554, type: 2}
+    - {fileID: 11400000, guid: 6e88f23537fbd2648b3fae6c4e4edb31, type: 2}
+    - {fileID: 11400000, guid: 50061d02f0bc39c4fbdf21471f1e5851, type: 2}
+    - {fileID: 11400000, guid: 6c9000bf2f7d6de48963fdd252b3a59e, type: 2}
+    - {fileID: 11400000, guid: 4bc894fa57f3f7f47b4eec5a2799d57d, type: 2}
+    - {fileID: 11400000, guid: c4ffa6869f03418488b40486619032d0, type: 2}
+    - {fileID: 11400000, guid: f92ef5cde79234844bc5abab1a1919d6, type: 2}
+    - {fileID: 11400000, guid: 469802015cc96bb428530464e47f73dd, type: 2}
+    - {fileID: 11400000, guid: 2840119e7a1e74842901d7e332ddd3f4, type: 2}
+    applyToAll: 0
+    targetType: 0
+    hitCount: 1
+  targetType: 2

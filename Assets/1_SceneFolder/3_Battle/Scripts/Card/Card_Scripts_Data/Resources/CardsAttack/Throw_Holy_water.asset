@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7614c6396bec38f449ae70ce878091d9, type: 3}
+  m_Name: Throw_Holy_water
+  m_EditorClassIdentifier: Assembly-CSharp::Card
+  resourcePath: 
+  cardName: "\uC131\uC218 \uB358\uC9C0\uAE30"
+  cardDescription: "\uC6D0\uAC70\uB9AC\n{damage} \uB370\uBBF8\uC9C0\uB97C \uC785\uD788\uACE0
+    \uC801\uC5D0\uAC8C \uBB34\uB38C\uC9D0,\uB178\uCD9C 1\uD134 \uBD80\uC5EC\uD569\uB2C8\uB2E4."
+  cardType: 0
+  cardSprite: {fileID: 21300000, guid: 2b83ce9a7d6e9844e8bfd504918a77aa, type: 3}
+  energyCost: 1
+  cardRarity: 0
+  exhaustAfterUse: 0
+  moveAmount: 0
+  minRange: 2
+  maxRange: 2
+  effects:
+  - effectType: 1
+    amount: 7
+    duration: 0
+    floatValue: 0
+    effectCard: {fileID: 0}
+    cardPool: []
+    applyToAll: 0
+    targetType: 0
+    hitCount: 1
+  - effectType: 40
+    amount: 1
+    duration: 1
+    floatValue: 0
+    effectCard: {fileID: 0}
+    cardPool: []
+    applyToAll: 0
+    targetType: 0
+    hitCount: 1
+  - effectType: 41
+    amount: 1
+    duration: 1
+    floatValue: 0
+    effectCard: {fileID: 0}
+    cardPool: []
+    applyToAll: 0
+    targetType: 0
+    hitCount: 1
+  targetType: 0
+  isEventOnly: 0
+  isInnate: 0
+  isSnecko: 0
+  bonusDamageMultiplier: 1
+  bonusBlockMultiplier: 1

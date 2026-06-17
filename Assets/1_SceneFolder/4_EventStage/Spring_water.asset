@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b281e37e863f699409a288966ba9f2e6, type: 3}
+  m_Name: Spring_water
+  m_EditorClassIdentifier: Assembly-CSharp::EventData
+  eventTitle: "\uD5C8\uACF5\uC5D0\uC11C \uBB3C\uC774 \uB5A8\uC5B4\uC9C0\uB294 \uC0D8"
+  eventImage: {fileID: 21300000, guid: 9cac9e646ffbf4443aa5e03baab7902a, type: 3}
+  eventText: "\uACF5\uC911\uC5D0\uC11C \uBB3C\uC774 \uB5A8\uC5B4\uC9C0\uB294 \uC2E0\uBE44\uD55C
+    \uC0D8\uC744 \uBC1C\uACAC\uD588\uC2B5\uB2C8\uB2E4."
+  choices:
+  - choiceTitle: "\uBB3C\uC744\uB9C8\uC2E0\uB2E4"
+    choiceDescription: "\uD604\uC7AC \uCCB4\uB825\uACFC \uC783\uC740 \uCCB4\uB825\uC758
+      \uC218\uCE58\uB97C \uBC14\uAFC9\uB2C8\uB2E4. "
+    effects:
+    - effectType: 28
+      effectAmount: 0
+      stringData: 
+  - choiceTitle: "\uC190\uC744 \uC53B\uB294\uB2E4"
+    choiceDescription: "\uB371\uC5D0 \uC788\uB294 \uCE74\uB4DC\uB97C \uC81C\uAC70\uD558\uB294
+      \uB300\uC2E0, \uCD5C\uB300 \uCCB4\uB825\uC774 3 \uAC10\uC18C\uD569\uB2C8\uB2E4."
+    effects:
+    - effectType: 11
+      effectAmount: 3
+      stringData: 
+    - effectType: 6
+      effectAmount: 1
+      stringData: Choice
+  - choiceTitle: "\uB3D9\uC804\uC744 \uB358\uC9C4\uB2E4"
+    choiceDescription: "\uACE8\uB4DC\uB97C \uB358\uC9D1\uB2C8\uB2E4. 1%\uC758 \uD655\uB960\uB85C
+      '\uD589\uC6B4\uC758 \uBB3C\uD1B5' \uC720\uBB3C\uC744 \uC5BB\uC2B5\uB2C8\uB2E4,"
+    effects:
+    - effectType: 4
+      effectAmount: 1
+      stringData: 
+    - effectType: 14
+      effectAmount: 1
+      stringData: GainRelicSpecific:1:bucketOfLuck/None:0

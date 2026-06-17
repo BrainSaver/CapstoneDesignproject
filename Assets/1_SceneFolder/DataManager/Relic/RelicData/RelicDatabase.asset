@@ -1,0 +1,423 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ecd0abb0384b273478376b3c8ba7dd39, type: 3}
+  m_Name: RelicDatabase
+  m_EditorClassIdentifier: Assembly-CSharp::RelicDatabase
+  relics:
+  - itemId: gamblersCoin
+    nameKo: "\uC2B9\uBD80\uC0AC\uC758 \uB3D9\uC804"
+    nameEn: Gambler's Coin
+    rarity: Common
+    isEventExclusive: 0
+    description: "\uC0C1\uC810 \uBB3C\uD488 25% \uD560\uC778"
+    relicIcon: {fileID: 850280896, guid: d1b8daf832adc16428693e1a4d9b81ed, type: 3}
+  - itemId: horseshoe
+    nameKo: "\uD3B8\uC790"
+    nameEn: Horseshoe
+    rarity: Common
+    isEventExclusive: 0
+    description: "\uC774\uB3D9 \uD3EC\uC778\uD2B8 \uC18C\uBAA8\uC2DC \uBC29\uC5B4\uB3C4
+      3\uD68D\uB4DD"
+    relicIcon: {fileID: 550005025, guid: d1b8daf832adc16428693e1a4d9b81ed, type: 3}
+  - itemId: chaliceOfAshes
+    nameKo: "\uC7AC\uC758 \uC131\uBC30"
+    nameEn: Chalice of Ashes
+    rarity: Common
+    isEventExclusive: 0
+    description: "\uCE74\uB4DC\uB97C 3\uC7A5 \uC18C\uBA78 \uB2F9 \uCCB4\uB825\uD68C\uBCF5
+      1"
+    relicIcon: {fileID: 193715454, guid: d1b8daf832adc16428693e1a4d9b81ed, type: 3}
+  - itemId: bloodyBandage
+    nameKo: "\uD53C \uBB3B\uC740 \uBD95\uB300"
+    nameEn: Bloody Bandage
+    rarity: Common
+    isEventExclusive: 0
+    description: "\uC804\uD22C \uB2F9 \uCC98\uC74C \uCCB4\uB825\uC744 \uC783\uC744
+      \uB54C \uCCB4\uB825 2 \uD68C\uBCF5"
+    relicIcon: {fileID: -19004865, guid: d1b8daf832adc16428693e1a4d9b81ed, type: 3}
+  - itemId: monksSandals
+    nameKo: "\uC218\uB3C4\uC0AC\uC758 \uC0CC\uB4E4"
+    nameEn: Monk's Sandals
+    rarity: Common
+    isEventExclusive: 0
+    description: "\uC6D0\uAC70\uB9AC \uC0C1\uD0DC\uC5D0\uC11C \uD134 \uC885\uB8CC
+      \uC2DC \uB2E4\uC74C\uD134 \uCE74\uB4DC 1\uC7A5 \uCD94\uAC00 \uB4DC\uB85C\uC6B0"
+    relicIcon: {fileID: -995654046, guid: d1b8daf832adc16428693e1a4d9b81ed, type: 3}
+  - itemId: warManual
+    nameKo: "\uC804\uC7C1 \uAD50\uBCF8"
+    nameEn: War Manual
+    rarity: Common
+    isEventExclusive: 0
+    description: "\uC804\uD22C \uC2DC\uC791 \uC2DC \uD798 1 \uD68D\uB4DD"
+    relicIcon: {fileID: -560337513, guid: d1b8daf832adc16428693e1a4d9b81ed, type: 3}
+  - itemId: crackedHourglass
+    nameKo: "\uAE08\uC774 \uAC04 \uBAA8\uB798\uC2DC\uACC4"
+    nameEn: Cracked Hourglass
+    rarity: Common
+    isEventExclusive: 0
+    description: "\uD134 \uC885\uB8CC \uC2DC \uC190\uD328\uAC00 \uC5C6\uB2E4\uBA74
+      \uB2E4\uC74C \uD134 \uCE74\uB4DC 1\uC7A5 \uCD94\uAC00 \uB4DC\uB85C\uC6B0"
+    relicIcon: {fileID: -443679993, guid: d1b8daf832adc16428693e1a4d9b81ed, type: 3}
+  - itemId: saintsHandBone
+    nameKo: "\uC131\uC778\uC758 \uC190\uBF08"
+    nameEn: Saint's Hand Bone
+    rarity: Common
+    isEventExclusive: 0
+    description: "\uACF5\uACA9 \uCE74\uB4DC\uAC00 \uC801\uC744 \uCC98\uCE58\uD558\uBA74
+      \uBC29\uC5B4\uB3C4 5 \uD68D\uB4DD"
+    relicIcon: {fileID: 2002853537, guid: d1b8daf832adc16428693e1a4d9b81ed, type: 3}
+  - itemId: holyOilFlask
+    nameKo: "\uC131\uC720\uBCD1"
+    nameEn: Holy Oil Flask
+    rarity: Common
+    isEventExclusive: 0
+    description: "\uD3EC\uC158 \uC0AC\uC6A9\uC2DC \uCE74\uB4DC 1\uC7A5 \uB4DC\uB85C\uC6B0"
+    relicIcon: {fileID: -1274357860, guid: d1b8daf832adc16428693e1a4d9b81ed, type: 3}
+  - itemId: archbishopsGloves
+    nameKo: "\uB300\uC8FC\uAD50\uC758 \uB450\uAEBC\uC6B4 \uC7A5\uAC11"
+    nameEn: Archbishop's Thick Gloves
+    rarity: Common
+    isEventExclusive: 0
+    description: "\uCD5C\uB300 \uC190\uD328 +1"
+    relicIcon: {fileID: 2127217283, guid: d1b8daf832adc16428693e1a4d9b81ed, type: 3}
+  - itemId: priestsBelt
+    nameKo: "\uC0AC\uC81C\uC758 \uD5C8\uB9AC\uB760"
+    nameEn: Priest's Belt
+    rarity: Common
+    isEventExclusive: 0
+    description: "\uD3EC\uC158 \uCD5C\uB300 \uBCF4\uC720\uB7C9 +1"
+    relicIcon: {fileID: -1233819404, guid: d1b8daf832adc16428693e1a4d9b81ed, type: 3}
+  - itemId: ironKneePads
+    nameKo: "\uCCA0\uC81C \uBB34\uB98E \uBCF4\uD638\uB300"
+    nameEn: Iron Knee Pads
+    rarity: Common
+    isEventExclusive: 0
+    description: "\uADFC\uAC70\uB9AC \uC0C1\uD0DC\uC5D0\uC11C \uD134 \uC885\uB8CC
+      \uC2DC \uBC29\uC5B4\uB3C4 4 \uD68D\uB4DD"
+    relicIcon: {fileID: -1183711280, guid: d1b8daf832adc16428693e1a4d9b81ed, type: 3}
+  - itemId: bellOfSilence
+    nameKo: "\uCE68\uBB35\uC758 \uC885"
+    nameEn: Bell of Silence
+    rarity: Common
+    isEventExclusive: 0
+    description: "\uD134 \uC885\uB8CC \uC2DC \uC0AC\uC6A9\uD558\uC9C0 \uC54A\uC740
+      \uC5D0\uB108\uC9C0\uB2F9 \uBC29\uC5B4\uB3C4 5 \uD68D\uB4DD"
+    relicIcon: {fileID: -960088022, guid: d1b8daf832adc16428693e1a4d9b81ed, type: 3}
+  - itemId: solidBedrock
+    nameKo: "\uAD73\uAC74\uD55C \uBC18\uC11D"
+    nameEn: Solid Bedrock
+    rarity: Common
+    isEventExclusive: 0
+    description: "\uD134 \uC885\uB8CC \uC2DC \uBC29\uC5B4\uB3C4\uAC00 15 \uC774\uC0C1
+      \uB0A8\uC544\uC788\uB2E4\uBA74, \uB2E4\uC74C \uD134\uC5D0 \uC801\uC774 \uBD80\uC5EC\uD558\uB294
+      \uC0C1\uD0DC\uC774\uC0C1\uC744 \uBB34\uD6A8\uD654 \uD55C\uB2E4."
+    relicIcon: {fileID: -294835402, guid: d1b8daf832adc16428693e1a4d9b81ed, type: 3}
+  - itemId: proteinShaker
+    nameKo: "\uD504\uB85C\uD2F4 \uC250\uC774\uCEE4"
+    nameEn: Protein Shaker
+    rarity: Common
+    isEventExclusive: 0
+    description: "\uD734\uC2DD\uC744 \uCDE8\uD560 \uB54C\uB9C8\uB2E4 \uCD5C\uB300\uCCB4\uB825\uC774
+      4 \uC99D\uAC00"
+    relicIcon: {fileID: 1534733290, guid: d1b8daf832adc16428693e1a4d9b81ed, type: 3}
+  - itemId: organizedIndulgence
+    nameKo: "\uC815\uB9AC\uB41C \uBA74\uC8C4\uBD80"
+    nameEn: Organized Indulgence
+    rarity: Common
+    isEventExclusive: 0
+    description: "\uCE74\uB4DC\uB97C \uAD6C\uB9E4\uD560 \uB54C\uB9C8\uB2E4 \uCD5C\uB300
+      \uCCB4\uB825\uC774 1\uC99D\uAC00"
+    relicIcon: {fileID: -2131514234, guid: d1b8daf832adc16428693e1a4d9b81ed, type: 3}
+  - itemId: bundleOfIndulgences
+    nameKo: "\uBA74\uC8C4\uBD80 \uBB49\uCE58"
+    nameEn: Bundle of Indulgences
+    rarity: Common
+    isEventExclusive: 0
+    description: "\uC0C1\uC810\uC774\uB098 \uC774\uBCA4\uD2B8\uC5D0\uC11C \uCE74\uB4DC\uB97C
+      \uB371\uC5D0\uC11C \uC81C\uAC70 \uD560 \uB54C\uB9C8\uB2E4 \uCD5C\uB300 \uCCB4\uB825\uC774
+      2 \uC99D\uAC00"
+    relicIcon: {fileID: -270817440, guid: d1b8daf832adc16428693e1a4d9b81ed, type: 3}
+  - itemId: easterEgg
+    nameKo: "\uBD80\uD65C\uC808 \uB2EC\uAC40"
+    nameEn: Easter Egg
+    rarity: Common
+    isEventExclusive: 0
+    description: "\uCCAB \uD134\uACFC \uCE74\uB4DC\uB97C \uC11E\uC744 \uB54C\uB9C8\uB2E4
+      \uBAA8\uB4E0 \uC801\uC5D0\uAC8C \uBB34\uB38C\uC9D0 \uBD80\uC5EC"
+    relicIcon: {fileID: 693512965, guid: d1b8daf832adc16428693e1a4d9b81ed, type: 3}
+  - itemId: fadedStainedGlass
+    nameKo: "\uBE5B\uBC14\uB79C \uC2A4\uD14C\uC778\uB4DC\uAE00\uB77C\uC2A4"
+    nameEn: Faded Stained Glass
+    rarity: Common
+    isEventExclusive: 0
+    description: "\uBC29\uC5B4\uB3C4 \uC5C6\uC774 \uD53C\uD574\uB97C \uC785\uC73C\uBA74
+      \uB2E4\uC74C\uD134 \uBC29\uC5B4\uB3C4 12 \uBD80\uC5EC"
+    relicIcon: {fileID: -577229986, guid: d1b8daf832adc16428693e1a4d9b81ed, type: 3}
+  - itemId: clunkyIronPlate
+    nameKo: "\uD22C\uBC15\uD55C \uCCA0\uD310"
+    nameEn: Clunky Iron Plate
+    rarity: Common
+    isEventExclusive: 0
+    description: "\uBC29\uC5B4\uB3C4\uB97C \uD68D\uB4DD\uD560 \uB54C\uB9C8\uB2E4
+      \uBB34\uC791\uC704 \uC801\uC5D0\uAC8C \uD53C\uD574 2"
+    relicIcon: {fileID: 97022550, guid: d1b8daf832adc16428693e1a4d9b81ed, type: 3}
+  - itemId: spikedShield
+    nameKo: "\uAC00\uC2DC\uBC29\uD328"
+    nameEn: Spiked Shield
+    rarity: Common
+    isEventExclusive: 0
+    description: "\uBC29\uC5B4\uB3C4\uB97C \uC5BB\uC744\uB584\uB9C8\uB2E4 \uBAA8\uB4E0\uC801
+      \uB370\uBBF8\uC9C0 1"
+    relicIcon: {fileID: 486990480, guid: d1b8daf832adc16428693e1a4d9b81ed, type: 3}
+  - itemId: pilgrimsStrawShoes
+    nameKo: "\uC21C\uB840\uC790\uC758 \uC9DA\uC2E0"
+    nameEn: Pilgrim's Straw Shoes
+    rarity: Common
+    isEventExclusive: 0
+    description: "\uC9C0\uB3C4\uC5D0\uC11C '\uBB3C\uC74C\uD45C(\uC774\uBCA4\uD2B8)'
+      \uB178\uB4DC\uB97C \uBC1F\uC744 \uB54C\uB9C8\uB2E4 \uB2E4\uC74C \uC804\uD22C
+      \uC2DC\uC791 \uC2DC \uD798\uC744 1 \uC99D\uAC00. (\uC804\uD22C \uD6C4 \uCD08\uAE30\uD654)"
+    relicIcon: {fileID: 1354464544, guid: d1b8daf832adc16428693e1a4d9b81ed, type: 3}
+  - itemId: holyPouch
+    nameKo: "\uC131\uC2A4\uB7EC\uC6B4 \uC8FC\uBA38\uB2C8"
+    nameEn: Holy Pouch
+    rarity: Common
+    isEventExclusive: 0
+    description: "\uD134 \uC885\uB8CC \uC2DC \uCE74\uB4DC 1\uC7A5\uC744 \uBB34\uC791\uC704\uB85C
+      \uBCF4\uC874"
+    relicIcon: {fileID: -1462139625, guid: d1b8daf832adc16428693e1a4d9b81ed, type: 3}
+  - itemId: chainLink
+    nameKo: "\uC0AC\uC2AC\uACE0\uB9AC"
+    nameEn: Chain Link
+    rarity: Common
+    isEventExclusive: 0
+    description: "\uD134 \uC885\uB8CC\uC2DC \uB0A8\uC740 \uCE74\uB4DC \uAC2F\uC218
+      \uB9CC\uD07C \uBC29\uC5B4\uB3C4 \uC99D\uAC00"
+    relicIcon: {fileID: 759538065, guid: d1b8daf832adc16428693e1a4d9b81ed, type: 3}
+  - itemId: ominousGloves
+    nameKo: "\uBD88\uAE38\uD55C \uC7A5\uAC11"
+    nameEn: Ominous Gloves
+    rarity: Common
+    isEventExclusive: 1
+    description: "\uD7981\uD68D\uB4DD \uBBFC\uCCA9 1\uAC10\uC18C"
+    relicIcon: {fileID: 1756380202, guid: d1b8daf832adc16428693e1a4d9b81ed, type: 3}
+  - itemId: ominousRope
+    nameKo: "\uBD88\uAE38\uD55C \uBC27\uC904"
+    nameEn: Ominous Rope
+    rarity: Common
+    isEventExclusive: 1
+    description: "\uBBFC\uCCA91\uD68D\uB4DD \uD7981\uAC10\uC18C"
+    relicIcon: {fileID: -1303351320, guid: d1b8daf832adc16428693e1a4d9b81ed, type: 3}
+  - itemId: crownOfThorns
+    nameKo: "\uC21C\uAD50\uC790\uC758 \uAC00\uC2DC\uAD00"
+    nameEn: Crown of Thorns
+    rarity: Rare
+    isEventExclusive: 0
+    description: "\uCCB4\uB825\uC774 30% \uC774\uD558\uC77C \uB54C \uACF5\uACA9 \uCE74\uB4DC
+      \uBE44\uC6A9 -1"
+    relicIcon: {fileID: -1808661213, guid: d1b8daf832adc16428693e1a4d9b81ed, type: 3}
+  - itemId: inquisitionRecord
+    nameKo: "\uC774\uB2E8 \uC2EC\uBB38 \uAE30\uB85D\uC11C"
+    nameEn: Inquisition Record
+    rarity: Rare
+    isEventExclusive: 0
+    description: "\uB371\uC5D0 \uC800\uC8FC \uCE74\uB4DC \uAC2F\uB9C8\uD07C \uD798
+      \uC0C1\uC2B9"
+    relicIcon: {fileID: 780857791, guid: d1b8daf832adc16428693e1a4d9b81ed, type: 3}
+  - itemId: heavyBible
+    nameKo: "\uC721\uC911\uD55C \uC131\uACBD\uCC45"
+    nameEn: Heavy Bible
+    rarity: Rare
+    isEventExclusive: 0
+    description: "\uCE74\uB4DC\uB97C \uC18C\uBA78\uC2DC\uD0AC \uB54C\uB9C8\uB2E4,
+      \uD574\uB2F9 \uCE74\uB4DC\uC758 \uCF54\uC2A4\uD2B8 \uC218\uCE58 3\uB9CC\uD07C
+      \uBB34\uC791\uC704 \uC801\uC5D0\uAC8C \uB370\uBBF8\uC9C0"
+    relicIcon: {fileID: 780857791, guid: d1b8daf832adc16428693e1a4d9b81ed, type: 3}
+  - itemId: asceticsWhip
+    nameKo: "\uACE0\uD589\uC790\uC758 \uCC44\uCC0D"
+    nameEn: Ascetic's Whip
+    rarity: Rare
+    isEventExclusive: 0
+    description: "\uB0B4 \uD134\uC5D0 \uCE74\uB4DC\uC758 \uD6A8\uACFC\uB85C \uB0B4
+      \uCCB4\uB825\uC774 \uAC10\uC18C\uD560 \uB54C\uB9C8\uB2E4 \uCE74\uB4DC 1\uC7A5\uC744
+      \uBF51\uAE30"
+    relicIcon: {fileID: -200838526, guid: d1b8daf832adc16428693e1a4d9b81ed, type: 3}
+  - itemId: goldenDumbbell
+    nameKo: "\uD669\uAE08 \uC544\uB839"
+    nameEn: Golden Dumbbell
+    rarity: Rare
+    isEventExclusive: 0
+    description: "\uBCF4\uC720\uD55C \uACE8\uB4DC 300 \uB9C8\uB2E4 \uCE74\uB4DC\uC758
+      \uD53C\uD574\uB791 1\uC99D\uAC00"
+    relicIcon: {fileID: -734050781, guid: d1b8daf832adc16428693e1a4d9b81ed, type: 3}
+  - itemId: holyRing
+    nameKo: "\uC2E0\uC131\uD55C \uBC18\uC9C0"
+    nameEn: Holy Ring
+    rarity: Rare
+    isEventExclusive: 0
+    description: "\uC801\uC5D0\uAC8C \uD53C\uD574\uB97C \uBC1B\uC558\uC744 \uB54C
+      \uBC29\uC5B4\uB3C4 \uC218\uCE58\uC640 \uB3D9\uC77C\uD574 \uD53C\uD574\uB97C
+      \uBC1B\uC9C0 \uC54A\uC73C\uBA74 \uB2E4\uC74C\uD134 2\uC7A5 \uCD94\uAC00 \uB4DC\uB85C\uC6B0
+      (\uBC29\uC5B4\uB3C4\uAC00 \uB0A8\uC73C\uBA74 \uBC1C\uB3D9X)"
+    relicIcon: {fileID: 369863708, guid: d1b8daf832adc16428693e1a4d9b81ed, type: 3}
+  - itemId: maceOfPunishment
+    nameKo: "\uC9D5\uBC8C\uC758 \uCCA0\uD1F4"
+    nameEn: Mace of Punishment
+    rarity: Rare
+    isEventExclusive: 0
+    description: "2\uCF54\uC2A4\uD2B8 \uC774\uC0C1\uC758 \uACF5\uACA9\uCE74\uB4DC\uC758
+      \uC624\uBC84\uB370\uBBF8\uC9C0\uB97C \uB0A8\uC740 \uB2E4\uB978\uC801\uC5D0\uAC8C
+      \uB79C\uB364\uC73C\uB85C \uB370\uBBF8\uC9C0\uB97C \uC785\uD78C\uB2E4."
+    relicIcon: {fileID: -1479793938, guid: d1b8daf832adc16428693e1a4d9b81ed, type: 3}
+  - itemId: vibratingGauntlet
+    nameKo: "\uC9C4\uB3D9\uD558\uB294 \uAC74\uD2C0\uB9BF"
+    nameEn: Vibrating Gauntlet
+    rarity: Rare
+    isEventExclusive: 0
+    description: "\uC774\uBC88 \uD134\uC5D0 \uC0AC\uC6A9\uD55C \uCE74\uB4DC\uC758
+      \uCD1D \uCF54\uC2A4\uD2B8\uAC00 4 \uC774\uC0C1\uC77C \uB54C, \uD134 \uC885\uB8CC
+      \uC2DC \uBB34\uC791\uC704 \uC801\uC5D0\uAC8C 10 \uD53C\uD574\uB97C \uC90D\uB2C8\uB2E4."
+    relicIcon: {fileID: -605183726, guid: d1b8daf832adc16428693e1a4d9b81ed, type: 3}
+  - itemId: brokenRosary
+    nameKo: "\uB04A\uC5B4\uC9C4 \uBB35\uC8FC"
+    nameEn: Broken Rosary
+    rarity: Rare
+    isEventExclusive: 0
+    description: "\uCE74\uB4DC\uAC00 \uC18C\uBA78\uB420\uB54C\uB9C8\uB2E4 \uC774\uBC88\uD134
+      \uB3D9\uC548 \uD798 1\uC99D\uAC00"
+    relicIcon: {fileID: -1888311998, guid: d1b8daf832adc16428693e1a4d9b81ed, type: 3}
+  - itemId: batteringRamCross
+    nameKo: "\uD30C\uC131\uCD94 \uC2ED\uC790\uAC00"
+    nameEn: Battering Ram Cross
+    rarity: Rare
+    isEventExclusive: 0
+    description: "\uACF5\uACA9\uC73C\uB85C \uC801\uC758 \uBC29\uC5B4\uB3C4\uB97C
+      0\uC73C\uB85C \uD30C\uAD34\uD560 \uB54C\uB9C8\uB2E4, \uC989\uC2DC \uCF54\uC2A4\uD2B8(\uC5D0\uB108\uC9C0)\uB97C
+      1 \uD68C\uBCF5"
+    relicIcon: {fileID: 500191306, guid: d1b8daf832adc16428693e1a4d9b81ed, type: 3}
+  - itemId: blessedRosaryBeads
+    nameKo: "\uCD95\uBCF5\uBC1B\uC740 \uBB35\uC8FC\uC54C"
+    nameEn: Blessed Rosary Beads
+    rarity: Rare
+    isEventExclusive: 0
+    description: "\uD734\uC2DD\uCC98\uC5D0\uC11C \uCE74\uB4DC\uB97C \uAC15\uD654
+      \uD560\uB584 30% \uD655\uB960\uB85C \uB79C\uB364 \uCE74\uB4DC \uCD94\uAC00
+      \uAC15\uD654"
+    relicIcon: {fileID: -1186635007, guid: d1b8daf832adc16428693e1a4d9b81ed, type: 3}
+  - itemId: giantPumpkin
+    nameKo: "\uAC70\uB300\uD55C \uD638\uBC15"
+    nameEn: Giant Pumpkin
+    rarity: Rare
+    isEventExclusive: 1
+    description: "\uC8FD\uC74C\uC5D0 \uB2EC\uD558\uB294 \uB370\uBBF8\uC9C0\uB97C
+      1\uD68C \uBB34\uD6A8\uD654 \uD55C\uB2E4"
+    relicIcon: {fileID: -1819095127, guid: d1b8daf832adc16428693e1a4d9b81ed, type: 3}
+  - itemId: bucketOfLuck
+    nameKo: "\uD589\uC6B4\uC758 \uBB3C\uD1B5"
+    nameEn: Bucket of Luck
+    rarity: Rare
+    isEventExclusive: 1
+    description: "\uD68D\uB4DD \uACE8\uB4DC\uB7C9 2\uBC30"
+    relicIcon: {fileID: 490726066, guid: d1b8daf832adc16428693e1a4d9b81ed, type: 3}
+  - itemId: tornOfferingPouch
+    nameKo: "\uAD6C\uBA4D \uB09C \uD5CC\uAE08 \uC8FC\uBA38\uB2C8"
+    nameEn: Torn Offering Pouch
+    rarity: Rare
+    isEventExclusive: 0
+    description: "\uC0C1\uC810\uC5D0\uC11C \uC544\uBB34\uAC83\uB3C4 \uAD6C\uB9E4\uD558\uC9C0
+      \uC54A\uACE0 \uB098\uAC00\uBA74, \uB2E4\uC74C\uC5D0 \uBC29\uBB38\uD558\uB294
+      \uC0C1\uC810\uC758 \uBAA8\uB4E0 \uAC00\uACA9\uC774 20% \uD560\uC778"
+    relicIcon: {fileID: -301576684, guid: d1b8daf832adc16428693e1a4d9b81ed, type: 3}
+  - itemId: waitingStatue
+    nameKo: "\uAE30\uB2E4\uB9AC\uB294 \uC11D\uC0C1"
+    nameEn: Waiting Statue
+    rarity: Rare
+    isEventExclusive: 1
+    description: "\uCCAB\uD134\uC5D0 \uCE74\uB4DC\uB97C 2\uC7A5 \uB35C \uBF51\uC9C0\uB9CC
+      \uB2E4\uC74C\uD134\uBD80\uD130 \uD55C\uC7A5\uC529 \uACC4\uC18D \uCD94\uAC00
+      \uB4DC\uB85C\uC6B0 \uD55C\uB2E4"
+    relicIcon: {fileID: -1365997850, guid: d1b8daf832adc16428693e1a4d9b81ed, type: 3}
+  - itemId: archbishopsSeal
+    nameKo: "\uB300\uC8FC\uAD50\uC758 \uC778\uC7A5"
+    nameEn: Archbishop's Seal
+    rarity: Rare
+    isEventExclusive: 0
+    description: "\uCE74\uB4DC \uC81C\uAC70 \uBE44\uC6A9 50% \uAC10\uC18C"
+    relicIcon: {fileID: -1094421981, guid: d1b8daf832adc16428693e1a4d9b81ed, type: 3}
+  - itemId: heavyCenser
+    nameKo: "\uBB34\uAC70\uC6B4 \uD5A5\uB85C"
+    nameEn: Heavy Censer
+    rarity: Rare
+    isEventExclusive: 0
+    description: "\uD134\uC885\uB8CC\uC2DC \uCF54\uC2A4\uD2B8 \uC0AC\uC6A9\uC758
+      \uD569\uC774 \uD640\uC218\uBA74 \uBC29\uC5B4\uB3C4 5 \uC9DD\uC218\uBA74 \uB79C\uB364\uD55C
+      \uC801\uC5D0\uAC8C 7 \uB370\uBBF8\uC9C0"
+    relicIcon: {fileID: -26209802, guid: d1b8daf832adc16428693e1a4d9b81ed, type: 3}
+  - itemId: lostGospel
+    nameKo: "\uC783\uC5B4\uBC84\uB9B0 \uBCF5\uC74C\uC11C"
+    nameEn: Lost Gospel
+    rarity: Legendary
+    isEventExclusive: 0
+    description: "\uC804\uD22C \uC2DC\uC791\uC2DC \uBB34\uC791\uC704 \uCE74\uB4DC
+      \uCF54\uC2A4\uD2B8 0"
+    relicIcon: {fileID: 2141730504, guid: d1b8daf832adc16428693e1a4d9b81ed, type: 3}
+  - itemId: cursedCrown
+    nameKo: "\uC800\uC8FC\uBC1B\uC740 \uC655\uAD00"
+    nameEn: Cursed Crown
+    rarity: Legendary
+    isEventExclusive: 0
+    description: "\uCF54\uC2A4\uD2B8 1\uC99D\uAC00, \uB4DC\uB85C\uC6B0 \uCE74\uB4DC
+      1 \uAC10\uC18C"
+    relicIcon: {fileID: 1570343430, guid: d1b8daf832adc16428693e1a4d9b81ed, type: 3}
+  - itemId: vowOfPoverty
+    nameKo: "\uCCAD\uBE48\uC758 \uB9F9\uC138"
+    nameEn: Vow of Poverty
+    rarity: Legendary
+    isEventExclusive: 0
+    description: "\uB9E4 \uD134 \uC2DC\uC791 \uC2DC \uC5D0\uB108\uC9C0\uB97C 1 \uCD94\uAC00\uB85C
+      \uC5BB\uC2B5\uB2C8\uB2E4. \uB2E8, \uB354 \uC774\uC0C1 \uC804\uD22C \uC2B9\uB9AC\uB85C
+      \uACE8\uB4DC\uB97C \uD68D\uB4DD\uD560 \uC218 \uC5C6\uC2B5\uB2C8\uB2E4. (\uC774\uBCA4\uD2B8\uB098
+      \uB2E4\uB978 \uC720\uBB3C\uB85C \uC5BB\uB294 \uACE8\uB4DC\uB294 \uAC00\uB2A5)"
+    relicIcon: {fileID: 801135075, guid: d1b8daf832adc16428693e1a4d9b81ed, type: 3}
+  - itemId: hereticsNail
+    nameKo: "\uC774\uB2E8\uC758 \uBABB"
+    nameEn: Heretic's Nail
+    rarity: Legendary
+    isEventExclusive: 0
+    description: "\uCF54\uC2A4\uD2B8 \uCD5C\uB300 1 \uC99D\uAC00 \uB2E8, \uB354 \uC774\uC0C1
+      \uD734\uC2DD\uCC98\uC5D0\uC11C \uCE74\uB4DC\uB97C \uAC15\uD654 \uBD88\uAC00\uB2A5"
+    relicIcon: {fileID: -1969810210, guid: d1b8daf832adc16428693e1a4d9b81ed, type: 3}
+  - itemId: heavyShackles
+    nameKo: "\uBB34\uAC70\uC6B4 \uC871\uC1C4"
+    nameEn: Heavy Shackles
+    rarity: Legendary
+    isEventExclusive: 0
+    description: "\uCF54\uC2A4\uD2B8 \uCD5C\uB300 1 \uC99D\uAC00 \uB2E8, \uAC19\uC740
+      \uACC4\uC5F4(\uACF5\uACA9, \uC2A4\uD0AC)\uCE74\uB4DC \uC5F0\uC18D \uC0AC\uC6A9
+      \uBD88\uAC00\uB2A5"
+    relicIcon: {fileID: -1945389860, guid: d1b8daf832adc16428693e1a4d9b81ed, type: 3}
+  - itemId: tornCassock
+    nameKo: "\uCC22\uC5B4\uC9C4 \uC218\uB2E8"
+    nameEn: Torn Cassock
+    rarity: Legendary
+    isEventExclusive: 0
+    description: "\uBC29\uC5B4\uB3C4 \uC5C6\uC774 \uD53C\uD574\uB97C \uC785\uC73C\uBA74
+      \uB2E4\uC74C\uD134 \uCCAB \uACF5\uACA9\uCE74\uB4DC 50 \uC99D\uAC00"
+    relicIcon: {fileID: 984718558, guid: d1b8daf832adc16428693e1a4d9b81ed, type: 3}
+  - itemId: embers
+    nameKo: "\uC794\uBD88"
+    nameEn: Embers
+    rarity: Legendary
+    isEventExclusive: 1
+    description: "\uC0AC\uB9DD\uC2DC \uCD5C\uB300\uCCB4\uB825 \uC808\uBC18\uC744
+      \uC783\uACE0 \uBD80\uD65C (1\uD68C\uC131)"
+    relicIcon: {fileID: -473389824, guid: d1b8daf832adc16428693e1a4d9b81ed, type: 3}

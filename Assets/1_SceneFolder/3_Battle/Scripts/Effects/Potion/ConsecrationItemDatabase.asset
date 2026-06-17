@@ -1,0 +1,281 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d4f22d56e2aa1040a1948714399561b, type: 3}
+  m_Name: ConsecrationItemDatabase
+  m_EditorClassIdentifier: Assembly-CSharp::ConsecrationItemDatabase
+  items:
+  - ConsecrationItemId: aspergorium
+    nameKo: "\uC131\uC218 \uBCD1"
+    nameEn: Aspergorium
+    rarity: Common
+    description: "\uC801\uC5D0\uAC8C 10\uC758 \uD53C\uD574\uB97C \uC900\uB2E4."
+    ConsecrationItemIcon: {fileID: 2126312354, guid: e526581c5f19fe342b67578a05e23f3d, type: 3}
+  - ConsecrationItemId: blessedAshes
+    nameKo: "\uC7AC"
+    nameEn: Blessed Ashes
+    rarity: Common
+    description: "\uD50C\uB808\uC774\uC5B4\uC5D0\uAC8C \uBC29\uC5B4\uB825 15\uB97C
+      \uBD80\uC5EC\uD55C\uB2E4."
+    ConsecrationItemIcon: {fileID: -2135485805, guid: e526581c5f19fe342b67578a05e23f3d, type: 3}
+  - ConsecrationItemId: stJohnsWort
+    nameKo: "\uC131 \uC694\uD55C\uC758 \uD480"
+    nameEn: St. John's Wort
+    rarity: Common
+    description: "\uD50C\uB808\uC774\uC5B4\uC5D0\uAC8C \uBD80\uC5EC\uB41C \uD574\uB85C\uC6B4
+      \uC0C1\uD0DC \uC774\uC0C1\uC744 \uBAA8\uB450 \uC81C\uAC70\uD55C\uB2E4.\n\uCCB4\uB825\uC744
+      5 \uD68C\uBCF5\uD55C\uB2E4."
+    ConsecrationItemIcon: {fileID: -1939646541, guid: e526581c5f19fe342b67578a05e23f3d, type: 3}
+  - ConsecrationItemId: handfulOfConsecratedSalt
+    nameKo: "\uCD95\uC131\uB41C \uC18C\uAE08 \uD55C \uC90C"
+    nameEn: Handful of Consecrated Salt
+    rarity: Common
+    description: "\uC801 \uC804\uCCB4\uC5D0\uAC8C \uC57D\uD654(\uC801\uC758 \uACF5\uACA9
+      \uB370\uBBF8\uC9C0 \uAC10\uC18C)\uB97C 2\uD134 \uB3D9\uC548 \uBD80\uC5EC\uD55C\uB2E4."
+    ConsecrationItemIcon: {fileID: -1917692263, guid: e526581c5f19fe342b67578a05e23f3d, type: 3}
+  - ConsecrationItemId: lumpOfFrankincense
+    nameKo: "\uC720\uD5A5 \uB369\uC5B4\uB9AC"
+    nameEn: Lump of Frankincense
+    rarity: Common
+    description: "\uC989\uC2DC \uCE74\uB4DC 2\uC7A5\uC744 \uBF51\uB294\uB2E4.\n\uC774\uBC88
+      \uD134\uC5D0 \uC0AC\uC6A9\uD560 \uB2E4\uC74C \uCE74\uB4DC\uC758 \uCF54\uC2A4\uD2B8\uAC00
+      1 \uAC10\uC18C\uD55C\uB2E4."
+    ConsecrationItemIcon: {fileID: 1901702099, guid: e526581c5f19fe342b67578a05e23f3d, type: 3}
+  - ConsecrationItemId: inquisitorsJournal
+    nameKo: "\uC774\uB2E8 \uC2EC\uBB38\uAD00\uC758 \uC218\uCCA9"
+    nameEn: Inquisitor's Journal
+    rarity: Common
+    description: "\uC120\uD0DD\uD55C \uC801\uC5D0\uAC8C \uCDE8\uC57D(\uBC1B\uB294
+      \uD53C\uD574 \uC99D\uAC00)\uC744 2\uD134 \uB3D9\uC548 \uBD80\uC5EC\uD55C\uB2E4."
+    ConsecrationItemIcon: {fileID: -1919861775, guid: e526581c5f19fe342b67578a05e23f3d, type: 3}
+  - ConsecrationItemId: blessedSilverCross
+    nameKo: "\uCD95\uBCF5\uBC1B\uC740 \uC740 \uC2ED\uC790\uAC00"
+    nameEn: Blessed Silver Cross
+    rarity: Common
+    description: "\uC801\uC758 \uBC29\uC5B4\uB3C4\uB97C \uBB34\uC2DC\uD558\uACE0
+      15\uC758 \uD53C\uD574\uB97C \uC900\uB2E4."
+    ConsecrationItemIcon: {fileID: -2080919632, guid: e526581c5f19fe342b67578a05e23f3d, type: 3}
+  - ConsecrationItemId: flagellantsWhip
+    nameKo: "\uCC38\uD68C\uC790\uC758 \uCC44\uCC0D"
+    nameEn: Flagellant's Whip
+    rarity: Common
+    description: "\uD50C\uB808\uC774\uC5B4\uB294 3\uC758 \uD53C\uD574\uB97C \uC785\uB294\uB2E4.\n\uC989\uC2DC
+      2\uC758 \uC5D0\uB108\uC9C0(\uCF54\uC2A4\uD2B8)\uB97C \uD68D\uB4DD\uD55C\uB2E4."
+    ConsecrationItemIcon: {fileID: 788388147, guid: e526581c5f19fe342b67578a05e23f3d, type: 3}
+  - ConsecrationItemId: purifyingHolyBell
+    nameKo: "\uC815\uD654\uC758 \uC131\uC885"
+    nameEn: Purifying Holy Bell
+    rarity: Common
+    description: "\uD50C\uB808\uC774\uC5B4\uC758 \uB514\uBC84\uD504 \uC0C1\uD0DC\uB97C
+      1\uD68C \uC81C\uAC70\uD55C\uB2E4.\n\uBAA8\uB4E0 \uC801\uC5D0\uAC8C 5\uC758
+      \uD53C\uD574\uB97C \uC900\uB2E4."
+    ConsecrationItemIcon: {fileID: 1267562877, guid: e526581c5f19fe342b67578a05e23f3d, type: 3}
+  - ConsecrationItemId: featherOfSaintMichael
+    nameKo: "\uC131 \uBBF8\uCE74\uC5D8\uC758 \uAE43\uD138"
+    nameEn: Feather of Saint Michael
+    rarity: Common
+    description: "\uC989\uC2DC \uADFC\uAC70\uB9AC \u2194 \uC6D0\uAC70\uB9AC \uC704\uCE58\uB97C
+      \uC6D0\uD558\uB294 \uAC70\uB9AC\uB85C \uBCC0\uACBD\uD55C\uB2E4.\n\uCE74\uB4DC
+      1\uC7A5 \uB4DC\uB85C\uC6B0."
+    ConsecrationItemIcon: {fileID: 930783754, guid: e526581c5f19fe342b67578a05e23f3d, type: 3}
+  - ConsecrationItemId: blessedBread
+    nameKo: "\uCD95\uBCF5\uBC1B\uC740 \uBE75"
+    nameEn: Blessed Bread
+    rarity: Common
+    description: "\uCCB4\uB825 10 \uD68C\uBCF5."
+    ConsecrationItemIcon: {fileID: 1527056136, guid: e526581c5f19fe342b67578a05e23f3d, type: 3}
+  - ConsecrationItemId: monasteryRations
+    nameKo: "\uC218\uB3C4\uC6D0\uC758 \uBE44\uC0C1 \uC2DD\uB7C9"
+    nameEn: Monastery Rations
+    rarity: Common
+    description: "\uC5D0\uB108\uC9C0 1 \uD68D\uB4DD.\n\uCE74\uB4DC 1\uC7A5 \uB4DC\uB85C\uC6B0."
+    ConsecrationItemIcon: {fileID: -1277884860, guid: e526581c5f19fe342b67578a05e23f3d, type: 3}
+  - ConsecrationItemId: consecratedNail
+    nameKo: "\uCD95\uC131\uB41C \uBABB"
+    nameEn: Consecrated Nail
+    rarity: Common
+    description: "\uB2E4\uC74C\uD134 \uC801\uC758 \uACF5\uACA9\uB825 9\uAC10\uC18C"
+    ConsecrationItemIcon: {fileID: -659857312, guid: e526581c5f19fe342b67578a05e23f3d, type: 3}
+  - ConsecrationItemId: sootStainedCandelabrum
+    nameKo: "\uADF8\uC744\uB9BF \uCD1B\uB300"
+    nameEn: Soot-Stained Candelabrum
+    rarity: Common
+    description: "\uC804\uCCB4\uC801\uC5D0\uAC8C 3\uB370\uBBF8\uC9C0\n1\uB4DC\uB85C\uC6B0"
+    ConsecrationItemIcon: {fileID: 1533771463, guid: e526581c5f19fe342b67578a05e23f3d, type: 3}
+  - ConsecrationItemId: saintsHourglass
+    nameKo: "\uC131\uC790\uC758 \uBAA8\uB798\uC2DC\uACC4"
+    nameEn: Saint's Hourglass
+    rarity: Common
+    description: "\uC774\uBC88 \uD134 \uC885\uB8CC \uC2DC, \uD328\uC5D0 \uC788\uB294
+      \uCE74\uB4DC \uBCF4\uC874"
+    ConsecrationItemIcon: {fileID: -1216716577, guid: e526581c5f19fe342b67578a05e23f3d, type: 3}
+  - ConsecrationItemId: martyrsCloth
+    nameKo: "\uC21C\uAD50\uC790\uC758 \uD53C\uAC00 \uBB3B\uC740 \uCC9C"
+    nameEn: Martyr's Cloth
+    rarity: Rare
+    description: "\uB2E4\uC74C \uD134\uAE4C\uC9C0 \uD50C\uB808\uC774\uC5B4\uAC00
+      \uBC1B\uB294 \uD53C\uD574\uB97C 1\uD68C \uC644\uC804\uD788 \uBB34\uD6A8\uD654\uD55C\uB2E4."
+    ConsecrationItemIcon: {fileID: 1921306150, guid: e526581c5f19fe342b67578a05e23f3d, type: 3}
+  - ConsecrationItemId: holyOil
+    nameKo: "\uAC70\uB8E9\uD55C \uC131\uC720"
+    nameEn: Holy Oil
+    rarity: Rare
+    description: "\uC190\uD328\uC758 \uCE74\uB4DC 1\uC7A5\uC744 \uC120\uD0DD\uD55C\uB2E4.\n\uC774\uBC88
+      \uD134 \uB3D9\uC548 \uD574\uB2F9 \uCE74\uB4DC\uC758 \uC0AC\uC6A9 \uBE44\uC6A9(\uCF54\uC2A4\uD2B8)\uC774
+      0\uC774 \uB41C\uB2E4."
+    ConsecrationItemIcon: {fileID: 1077618081, guid: e526581c5f19fe342b67578a05e23f3d, type: 3}
+  - ConsecrationItemId: votiveBeeswaxCandle
+    nameKo: "\uBD09\uD5CC\uC6A9 \uBC00\uB78D \uC591\uCD08"
+    nameEn: Votive Beeswax Candle
+    rarity: Rare
+    description: "\uC190\uD328\uC758 \uCE74\uB4DC 2\uC7A5\uC744 \uC18C\uBA78\uC2DC\uD0A8\uB2E4.\n\uC18C\uBA78\uC2DC\uD0A8
+      \uCE74\uB4DC 1\uC7A5\uB2F9 \uCCB4\uB825 2\uB97C \uD68C\uBCF5\uD55C\uB2E4."
+    ConsecrationItemIcon: {fileID: -614956827, guid: e526581c5f19fe342b67578a05e23f3d, type: 3}
+  - ConsecrationItemId: tornHymnSheet
+    nameKo: "\uCC22\uC5B4\uC9C4 \uC131\uAC00 \uC545\uBCF4"
+    nameEn: Torn Hymn Sheet
+    rarity: Rare
+    description: "\uC774\uBC88 \uD134\uC5D0 \uC0AC\uC6A9\uD558\uB294 \uB2E4\uC74C
+      \uC2A4\uD0AC \uCE74\uB4DC 1\uC7A5\uC774 \uB450 \uBC88 \uBC1C\uB3D9\uB41C\uB2E4."
+    ConsecrationItemIcon: {fileID: -1189190162, guid: e526581c5f19fe342b67578a05e23f3d, type: 3}
+  - ConsecrationItemId: brokenHolyIconFragment
+    nameKo: "\uCC22\uC5B4\uC9C4 \uC131\uC0C1 \uC870\uAC01"
+    nameEn: Broken Holy Icon Fragment
+    rarity: Rare
+    description: "\uC190\uD328\uC758 \uCE74\uB4DC 1\uC7A5\uC744 \uC120\uD0DD\uD55C\uB2E4.\n\uC774\uBC88
+      \uC804\uD22C \uB3D9\uC548 \uD574\uB2F9 \uCE74\uB4DC\uC758 \uD53C\uD574\uB7C9\uC774
+      50% \uC99D\uAC00\uD55C\uB2E4."
+    ConsecrationItemIcon: {fileID: -291590073, guid: e526581c5f19fe342b67578a05e23f3d, type: 3}
+  - ConsecrationItemId: martyrsReliquary
+    nameKo: "\uC21C\uAD50\uC790\uC758 \uC720\uACE8\uD568"
+    nameEn: Martyr's Reliquary
+    rarity: Rare
+    description: "\uCE74\uB4DC 3\uC7A5\uC744 \uBF51\uB294\uB2E4."
+    ConsecrationItemIcon: {fileID: -358239844, guid: e526581c5f19fe342b67578a05e23f3d, type: 3}
+  - ConsecrationItemId: sealedScripturePage
+    nameKo: "\uBD09\uC778\uB41C \uC131\uC11C\uC758 \uD55C \uD398\uC774\uC9C0"
+    nameEn: Sealed Scripture Page
+    rarity: Rare
+    description: "\uBB34\uC791\uC704 \uACF5\uACA9 \uCE74\uB4DC 1\uC7A5\uC744 \uC0DD\uC131\uD55C\uB2E4.\n\uC774\uBC88
+      \uD134 \uB3D9\uC548 \uBE44\uC6A9\uC774 0\uC774\uB2E4."
+    ConsecrationItemIcon: {fileID: 633326432, guid: e526581c5f19fe342b67578a05e23f3d, type: 3}
+  - ConsecrationItemId: demonHorn
+    nameKo: "\uC545\uB9C8\uC758 \uBFD4"
+    nameEn: Demon Horn
+    rarity: Rare
+    description: "\uBAA8\uB4E0 \uC801\uC5D0\uAC8C \uCDE8\uC57D 1\uD134 \uBD80\uC5EC.\n\uBAA8\uB4E0
+      \uC801\uC5D0\uAC8C \uC57D\uD654 1\uD134 \uBD80\uC5EC."
+    ConsecrationItemIcon: {fileID: 453781960, guid: e526581c5f19fe342b67578a05e23f3d, type: 3}
+  - ConsecrationItemId: brokenCrossFragment
+    nameKo: "\uBD80\uC11C\uC9C4 \uC2ED\uC790\uAC00 \uC870\uAC01"
+    nameEn: Broken Cross Fragment
+    rarity: Rare
+    description: "\uC774\uBC88 \uD134 \uB3D9\uC548 \uBAA8\uB4E0 \uACF5\uACA9\uC774
+      \uBC29\uC5B4\uB3C4\uB97C \uBB34\uC2DC\uD55C\uB2E4."
+    ConsecrationItemIcon: {fileID: -1332681228, guid: e526581c5f19fe342b67578a05e23f3d, type: 3}
+  - ConsecrationItemId: angelsQuill
+    nameKo: "\uCC9C\uC0AC\uC758 \uAE43\uD39C"
+    nameEn: Angel's Quill
+    rarity: Rare
+    description: "\uC190\uD328\uC758 \uCE74\uB4DC 1\uC7A5\uC744 \uBCF5\uC0AC\uD55C\uB2E4.\n\uBCF5\uC0AC\uBCF8\uC740
+      \uC774\uBC88 \uD134 \uC885\uB8CC \uC2DC \uC18C\uBA78\uD55C\uB2E4."
+    ConsecrationItemIcon: {fileID: -379322543, guid: e526581c5f19fe342b67578a05e23f3d, type: 3}
+  - ConsecrationItemId: archbishopsSalt
+    nameKo: "\uB300\uC8FC\uAD50\uC758 \uC18C\uAE08"
+    nameEn: Archbishop's Salt
+    rarity: Rare
+    description: "\uD798 2 \uD68D\uB4DD.\n\uBBFC\uCCA9 2 \uD68D\uB4DD."
+    ConsecrationItemIcon: {fileID: -1181861268, guid: e526581c5f19fe342b67578a05e23f3d, type: 3}
+  - ConsecrationItemId: archangelsSeal
+    nameKo: "\uB300\uCC9C\uC0AC\uC758 \uC778\uC7A5"
+    nameEn: Archangel's Seal
+    rarity: Rare
+    description: "\uC190\uD328\uB97C \uBAA8\uB450 \uBC84\uB9B0\uB2E4.\n\uBC84\uB9B0
+      \uCE74\uB4DC \uC218\uB9CC\uD07C \uCE74\uB4DC\uB97C \uBF51\uB294\uB2E4."
+    ConsecrationItemIcon: {fileID: 237466123, guid: e526581c5f19fe342b67578a05e23f3d, type: 3}
+  - ConsecrationItemId: wornChaliceFragment
+    nameKo: "\uB0A1\uC740 \uC131\uBC30 \uD30C\uD3B8"
+    nameEn: Worn Chalice Fragment
+    rarity: Rare
+    description: "\uD604\uC7AC \uBC29\uC5B4\uB3C4\uB97C \uBAA8\uB450 \uC783\uB294\uB2E4.\n\uC783\uC740
+      \uBC29\uC5B4\uB3C4\uC758 2\uBC30\uB9CC\uD07C \uBB34\uC791\uC704 \uC801\uC5D0\uAC8C
+      \uD53C\uD574\uB97C \uC900\uB2E4."
+    ConsecrationItemIcon: {fileID: -1666563605, guid: e526581c5f19fe342b67578a05e23f3d, type: 3}
+  - ConsecrationItemId: pilgrimsMap
+    nameKo: "\uC21C\uB840\uC790\uC758 \uC9C0\uB3C4"
+    nameEn: Pilgrim's Map
+    rarity: Rare
+    description: "\uB2E4\uC74C 3\uD134 \uB3D9\uC548 \uCE74\uB4DC 1\uC7A5 \uCD94\uAC00
+      \uB4DC\uB85C\uC6B0"
+    ConsecrationItemIcon: {fileID: 1645946354, guid: e526581c5f19fe342b67578a05e23f3d, type: 3}
+  - ConsecrationItemId: prayerForTheDeparted
+    nameKo: "\uB9DD\uC790\uC758 \uAE30\uB3C4\uBB38"
+    nameEn: Prayer for the Departed
+    rarity: Rare
+    description: "\uBC84\uB9B0 \uCE74\uB4DC\uC5D0\uC11C \uCE74\uB4DC 1\uC7A5\uC744
+      \uD328\uB85C \uAC00\uC838\uC624\uACE0 \uC774\uBC88\uD134\uB9CC \uBE44\uC6A9\uC774
+      0"
+    ConsecrationItemIcon: {fileID: 786687548, guid: e526581c5f19fe342b67578a05e23f3d, type: 3}
+  - ConsecrationItemId: penitentsThornGarment
+    nameKo: "\uACE0\uD589\uC790\uC758 \uAC00\uC2DC\uC637"
+    nameEn: Penitent's Thorn Garment
+    rarity: Rare
+    description: "\uC774\uBC88 \uD134\uC5D0 \uD50C\uB808\uC774\uC5B4\uB97C \uACF5\uACA9\uD558\uB294
+      \uBAA8\uB4E0 \uC801\uC740 \uACF5\uACA9 1\uD68C\uB2F9 4\uC758 \uD53C\uD574"
+    ConsecrationItemIcon: {fileID: 1480422132, guid: e526581c5f19fe342b67578a05e23f3d, type: 3}
+  - ConsecrationItemId: inquisitorsTorch
+    nameKo: "\uC774\uB2E8 \uC2EC\uBB38\uAD00\uC758 \uD683\uBD88"
+    nameEn: Inquisitor's Torch
+    rarity: Rare
+    description: "\uC801\uC774 \uAC00\uC9C4 \uBAA8\uB4E0 \uBC84\uD504 \uC81C\uAC70"
+    ConsecrationItemIcon: {fileID: 1491792960, guid: e526581c5f19fe342b67578a05e23f3d, type: 3}
+  - ConsecrationItemId: angelsTrumpet
+    nameKo: "\uCC9C\uC0AC\uC758 \uB098\uD314"
+    nameEn: Angel's Trumpet
+    rarity: Legendary
+    description: "\uBAA8\uB4E0 \uC801\uC5D0\uAC8C \uAE30\uC808 1\uD134."
+    ConsecrationItemIcon: {fileID: 1093698717, guid: e526581c5f19fe342b67578a05e23f3d, type: 3}
+  - ConsecrationItemId: blessedShackles
+    nameKo: "\uCD95\uBCF5\uBC1B\uC740 \uC871\uC1C4"
+    nameEn: Blessed Shackles
+    rarity: Legendary
+    description: "\uC120\uD0DD\uD55C \uC801\uC758 \uB2E4\uC74C \uD589\uB3D9\uC744
+      \uCDE8\uC18C\uD55C\uB2E4."
+    ConsecrationItemIcon: {fileID: -789279881, guid: e526581c5f19fe342b67578a05e23f3d, type: 3}
+  - ConsecrationItemId: portraitOfTheSaint
+    nameKo: "\uC131\uB140\uC758 \uCD08\uC0C1\uD654"
+    nameEn: Portrait of the Saint
+    rarity: Legendary
+    description: "\uCCB4\uB825\uC774 30% \uC774\uD558\uB77C\uBA74 \uC5D0\uB108\uC9C0
+      2 \uD68D\uB4DD"
+    ConsecrationItemIcon: {fileID: -1539929182, guid: e526581c5f19fe342b67578a05e23f3d, type: 3}
+  - ConsecrationItemId: demonicRemains
+    nameKo: "\uC545\uB9C8\uC758 \uC720\uACE8"
+    nameEn: Demonic Remains
+    rarity: Legendary
+    description: "\uC774\uBC88 \uD134 \uD798 +5\n\uD134 \uC885\uB8CC \uC2DC \uC774\uBC88
+      \uC804\uD22C\uB3D9\uC548 \uD798 -3"
+    ConsecrationItemIcon: {fileID: 1902206272, guid: e526581c5f19fe342b67578a05e23f3d, type: 3}
+  - ConsecrationItemId: fanaticsEmblem
+    nameKo: "\uAD11\uC2E0\uC758 \uC99D\uD45C"
+    nameEn: Fanatic's Emblem
+    rarity: Legendary
+    description: "\uC774\uBC88\uD134 \uB2E4\uC74C \uCCAB\uCE74\uB4DC \uD53C\uD574\uB7C9
+      2\uBC30\n\uB2E4\uC74C\uD134 \uCC98\uC74C\uC73C\uB85C \uBC1B\uB294 \uD53C\uD574
+      2\uBC30"
+    ConsecrationItemIcon: {fileID: -1764386142, guid: e526581c5f19fe342b67578a05e23f3d, type: 3}
+  - ConsecrationItemId: coagulatedBlood
+    nameKo: "\uAD73\uC740 \uD53C"
+    nameEn: Coagulated Blood
+    rarity: Legendary
+    description: "\uD50C\uB808\uC774\uC5B4\uAC00 \uD604\uC7AC \uC783\uC740 \uCCB4\uB825
+      15\uB2F9 1\uC758 \uC5D0\uB108\uC9C0\uB97C \uD68D\uB4DD"
+    ConsecrationItemIcon: {fileID: 694469197, guid: e526581c5f19fe342b67578a05e23f3d, type: 3}

@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7614c6396bec38f449ae70ce878091d9, type: 3}
+  m_Name: demonsMuscleCard
+  m_EditorClassIdentifier: Assembly-CSharp::Card
+  resourcePath: 
+  cardName: "\uC545\uB9C8\uC758 \uADFC\uC721"
+  cardDescription: "\uAC70\uB9AC\uC0C1\uAD00 X\n\uC0AC\uC6A9 \uC2DC 1\uCF54\uC2A4\uD2B8\uB97C
+    \uD76D\uB4DD\uD558\uC9C0\uB9CC, \uBCF4\uC2A4\uC758 \uACF5\uACA9\uB825\uC774 {damage}\uC99D\uAC00\uD569\uB2C8\uB2E4"
+  cardType: 1
+  cardSprite: {fileID: 21300000, guid: eb4a907b0df701748ab76225eb35b408, type: 3}
+  energyCost: 0
+  cardRarity: 0
+  exhaustAfterUse: 1
+  moveAmount: 0
+  minRange: 1
+  maxRange: 3
+  effects:
+  - effectType: 42
+    amount: 3
+    duration: 0
+    floatValue: 0
+    effectCard: {fileID: 0}
+    cardPool: []
+    applyToAll: 0
+    targetType: 1
+    hitCount: 1
+  targetType: 1
+  isEventOnly: 0
+  isInnate: 0
+  isSnecko: 0
+  bonusDamageMultiplier: 1
+  bonusBlockMultiplier: 1

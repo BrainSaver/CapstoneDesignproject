@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/3_Scenes/Title.unity
+    guid: f8ae6bcc89551db4e8aea5eab38bed84
+  - enabled: 1
+    path: Assets/3_Scenes/RoadMap.unity
+    guid: 4d7d4123fcdfbfa45ba0ab5ade31bcdb
+  - enabled: 1
+    path: Assets/3_Scenes/BattleScene.unity
+    guid: 9a4de13852ae71e4c8fffbd54a89ec0a
+  - enabled: 1
+    path: Assets/3_Scenes/Shop.unity
+    guid: c23f7e924c65afd4d9c739f542d6d10b
+  - enabled: 1
+    path: Assets/3_Scenes/ExorcismTool.unity
+    guid: bb9e7f97bbe97eb4d825854b874c0b3b
+  - enabled: 1
+    path: Assets/3_Scenes/Heal.unity
+    guid: b4a9cbef91bf38447bb4c383075398e1
+  - enabled: 1
+    path: Assets/3_Scenes/RandomStage.unity
+    guid: 3ade8b891ae14be4ca5852510cc28826
+  - enabled: 1
+    path: Assets/3_Scenes/BossScene.unity
+    guid: 27733bb47b412dc479af6fa1b0c6bdb6
+  m_configObjects:
+    com.unity.dt.app-ui: {fileID: 11400000, guid: 1b1c20d82303e4b5781c3ef50ac1449f, type: 2}
+    com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}

@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f79382efb8feed428860d9d4f84315b, type: 3}
+  m_Name: Goblin
+  m_EditorClassIdentifier: Assembly-CSharp::EnemyData
+  enemyName: "\uC784\uC2DC1"
+  health: 20
+  enemySprite: {fileID: 263176370, guid: 071cbdc081712e744a8c24950b1af8ca, type: 3}
+  position: {x: 0, y: 0}
+  size: {x: 300, y: 350}
+  enemyAIType: 1
+  attackIntentIcon: {fileID: 0}
+  buffIntentIcon: {fileID: 0}
+  healIntentIcon: {fileID: 0}
+  awakenIntentIcon: {fileID: 0}
+  summonLeftData: {fileID: 0}
+  summonRightData: {fileID: 0}
+  actionPattern:
+  - actionType: 0
+    value: 6
+    repeatCount: 1
+    minRange: 1
+    maxRange: 2
+    additionalActions: []
+  - actionType: 4
+    value: 3
+    repeatCount: 1
+    minRange: 1
+    maxRange: 2
+    additionalActions: []
+  - actionType: 0
+    value: 6
+    repeatCount: 2
+    minRange: 1
+    maxRange: 2
+    additionalActions: []
+  - actionType: 4
+    value: 5
+    repeatCount: 1
+    minRange: 1
+    maxRange: 2
+    additionalActions: []
+  shadowMode: 1
+  shadowWidthMultiplier: 0.75
+  shadowHeightToWidth: 0.2
+  shadowOffset: {x: 0, y: -10}
+  manualShadowSize: {x: 180, y: 28}
+  demonsMuscleCard: {fileID: 0}
+  demonsDustCard: {fileID: 0}
+  dustBonusPerCard: 3
+  initialStrength: 0

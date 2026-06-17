@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7614c6396bec38f449ae70ce878091d9, type: 3}
+  m_Name: Omae Wa Mou Shindeiru
+  m_EditorClassIdentifier: Assembly-CSharp::CardData
+  resourcePath: 
+  cardName: "\uB108\uB294 \uC774\uBBF8 \uC8FD\uC5B4\uC788\uB2E4"
+  cardDescription: "\uAC70\uB9AC\uC0C1\uAD00X\n2\uD134\uD6C4 \uC801\uC5D0\uAC8C {damage}\uC758
+    \uD53C\uD574\uB97C \uC90D\uB2C8\uB2E4."
+  cardType: 1
+  cardSprite: {fileID: 21300000, guid: 79e0a004c50bc174ca27af0ba76b6384, type: 3}
+  energyCost: 2
+  cardRarity: 0
+  exhaustAfterUse: 0
+  moveAmount: 0
+  minRange: 1
+  maxRange: 3
+  effects:
+  - effectType: 19
+    amount: 30
+    duration: 2
+    floatValue: 0
+    effectCard: {fileID: 0}
+    cardPool: []
+    applyToAll: 0
+    targetType: 1
+    hitCount: 1
+  targetType: 1
+  isEventOnly: 0
+  isInnate: 0
+  isSnecko: 0
+  bonusDamageMultiplier: 1
+  bonusBlockMultiplier: 1

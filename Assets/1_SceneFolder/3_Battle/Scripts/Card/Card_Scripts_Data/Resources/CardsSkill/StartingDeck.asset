@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d45015c07bbd45f4b9bbf38938a4d6db, type: 3}
+  m_Name: StartingDeck
+  m_EditorClassIdentifier: Assembly-CSharp::StartingDeckData
+  startingCards:
+  - {fileID: 11400000, guid: 5d7b013c81bc9044598d563cd89db6ec, type: 2}
+  - {fileID: 11400000, guid: 5d7b013c81bc9044598d563cd89db6ec, type: 2}
+  - {fileID: 11400000, guid: 5d7b013c81bc9044598d563cd89db6ec, type: 2}
+  - {fileID: 11400000, guid: 5d7b013c81bc9044598d563cd89db6ec, type: 2}
+  - {fileID: 11400000, guid: c69db4a41917160419bd40cb8c7f855c, type: 2}
+  - {fileID: 11400000, guid: c69db4a41917160419bd40cb8c7f855c, type: 2}
+  - {fileID: 11400000, guid: c69db4a41917160419bd40cb8c7f855c, type: 2}
+  - {fileID: 11400000, guid: c69db4a41917160419bd40cb8c7f855c, type: 2}
+  - {fileID: 11400000, guid: 15a87c29737a7f44bbcb866bf5b1ab3a, type: 2}
+  - {fileID: 11400000, guid: 469802015cc96bb428530464e47f73dd, type: 2}
+  - {fileID: 11400000, guid: 469802015cc96bb428530464e47f73dd, type: 2}
+  - {fileID: 11400000, guid: 469802015cc96bb428530464e47f73dd, type: 2}
+  - {fileID: 11400000, guid: 469802015cc96bb428530464e47f73dd, type: 2}

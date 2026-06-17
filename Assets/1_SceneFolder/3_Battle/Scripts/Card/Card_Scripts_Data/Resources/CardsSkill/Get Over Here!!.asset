@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7614c6396bec38f449ae70ce878091d9, type: 3}
+  m_Name: Get Over Here!!
+  m_EditorClassIdentifier: Assembly-CSharp::CardData
+  resourcePath: 
+  cardName: "\uC77C\uB8E8\uC640\uC787!!"
+  cardDescription: "\uAC70\uB9AC\uC0C1\uAD00X \n\uC801\uC758 \uBC29\uC5B4\uB3C4\uB97C
+    \uBCF5\uC0AC\uD569\uB2C8\uB2E4."
+  cardType: 1
+  cardSprite: {fileID: 21300000, guid: e346ae201c78a5149a0666f25574d94d, type: 3}
+  energyCost: 2
+  cardRarity: 0
+  exhaustAfterUse: 0
+  moveAmount: 0
+  minRange: 1
+  maxRange: 3
+  effects:
+  - effectType: 17
+    amount: 1
+    duration: 0
+    floatValue: 0
+    effectCard: {fileID: 0}
+    cardPool: []
+    applyToAll: 0
+    targetType: 0
+    hitCount: 1
+  targetType: 0
+  isEventOnly: 0
+  isInnate: 0
+  isSnecko: 0
+  bonusDamageMultiplier: 1
+  bonusBlockMultiplier: 1

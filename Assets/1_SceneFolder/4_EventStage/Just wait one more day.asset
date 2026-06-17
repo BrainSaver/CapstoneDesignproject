@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b281e37e863f699409a288966ba9f2e6, type: 3}
+  m_Name: Just wait one more day
+  m_EditorClassIdentifier: Assembly-CSharp::EventData
+  eventTitle: "\uD558\uB8E8\uB9CC \uAE30\uB2E4\uB9AC\uBA74!!!!!"
+  eventImage: {fileID: 21300000, guid: 65f12d470b77c744e8caf6c64a5623d0, type: 3}
+  eventText: "\uB2F9\uC2E0\uC740 \uAE38\uAC00\uC5D0\uC11C \uC18C\uB9AC\uCE58\uB294
+    \uC870\uAC01\uC0C1\uC744 \uBC1C\uACAC\uD588\uC2B5\uB2C8\uB2E4\n\uD558\uB8E8!!!!!
+    \uD558\uB8E8\uB9CC \uAE30\uB2E4\uB9AC\uBA74!!!!!!!!!!!!!!!!!"
+  choices:
+  - choiceTitle: "\uD558\uB8E8\uB97C \uAE30\uB2E4\uB9B0\uB2E4"
+    choiceDescription: "\uC720\uBB3C \"\uAE30\uB2E4\uB9AC\uB294 \uC11D\uC0C1\" \uD68D\uB4DD"
+    effects:
+    - effectType: 8
+      effectAmount: 1
+      stringData: waitingStatue
+  - choiceTitle: "\uBB34\uC2DC\uD558\uACE0 \uC9C0\uB098\uCE5C\uB2E4"
+    choiceDescription: 
+    effects: []

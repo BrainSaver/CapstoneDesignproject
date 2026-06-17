@@ -1,0 +1,35 @@
+[유물 시스템 사용 및 확장 가이드]
+
+1. 개요
+- Slay the Spire 스타일의 유물 시스템이 구현되었습니다.
+- 모든 유물 데이터는 'relic.json'에서 관리됩니다.
+- 로직은 'RelicManager.cs'에서 중앙 집중식으로 처리됩니다.
+
+2. 유물 데이터 구조 (relic.json)
+- itemId: 유물의 고유 ID (로직에서 참조됨)
+- nameKo, nameEn: 유물 이름 (한글/영어)
+- rarity: 희귀도 (Common, Rare, Legendary 등)
+- description: 유물 설명
+- isEventExclusive: 이벤트 전용 여부
+
+3. 로직 구현 방식
+- 'RelicManager.cs'는 싱글턴으로 동작하며, 게임의 주요 시점(전투 시작, 턴 시작/종료, 데미지 입음 등)에 맞춰 훅(Hook)이 걸려 있습니다.
+- 새로운 유물 효과를 추가하려면:
+  1) 'relic.json'에 유물 정보를 추가합니다.
+  2) 'RelicManager.cs'에서 해당 유물의 효과가 발동해야 할 시점의 메서드(예: OnTurnStart)에 `if (HasRelic("유물ID"))` 블록을 만들고 로직을 작성합니다.
+
+4. 현재 구현된 주요 훅 (Hooks)
+- OnBattleStart(): 전투 시작 시 (예: 전쟁 교본 - 힘 획득)
+- OnTurnStart(): 플레이어 턴 시작 시 (예: 에너지 추가 유물들)
+- OnTurnEnd(): 플레이어 턴 종료 시 (예: 미사용 에너지당 방어도 획득)
+- OnDamageTaken(ref int damage): 데미지를 입을 때 (예: 피 묻은 붕대, 거대한 호박)
+- OnMovePointUsed(int cost): 이동 포인트 소모 시 (예: 편자 - 방어도 획득)
+- OnCardExhausted(Card card): 카드가 소멸될 때 (예: 재의 성배, 육중한 성경책)
+- OnDeckShuffled(): 덱이 섞일 때 (예: 부활절 달걀)
+- OnPurchase(ref int price): 상점 구매 시 (예: 승부사의 동전, 대주교의 인장)
+- OnRest(): 휴식처 이용 시 (예: 프로틴 쉐이커)
+
+5. 주의 사항
+- 유물의 코스트 감소 등 복잡한 효과는 'TurnManager'나 'HandManager'의 드로우 로직과 연계되어 있습니다.
+- 새로운 훅이 필요하다면 해당 매니저 클래스에서 'RelicManager.Instance.OnXXXX()'를 호출하도록 추가하면 됩니다.
+- 한글 인코딩이 깨지지 않도록 UTF-8 (BOM 포함 권장) 형식으로 파일을 관리해 주세요.

@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7614c6396bec38f449ae70ce878091d9, type: 3}
+  m_Name: Devious Smirk
+  m_EditorClassIdentifier: Assembly-CSharp::CardData
+  resourcePath: 
+  cardName: "\uC74C\uD749\uD55C \uC6C3\uC74C"
+  cardDescription: "\uAC70\uB9AC\uC0C1\uAD00X\n\uC774\uBC88 \uD134 \uC885\uB8CC \uC2DC,
+    \uB0B4 \uD328\uC5D0 \uC788\uB294 \uCE74\uB4DC\uB4E4\uC744 \uBC84\uB9AC\uC9C0
+    \uC54A\uACE0 \uBCF4\uC874 \uC2DC\uD0B5\uB2C8\uB2E4. \uCE74\uB4DC {cards}\uC7A5\uC744
+    \uBF51\uC2B5\uB2C8\uB2E4."
+  cardType: 1
+  cardSprite: {fileID: 21300000, guid: 697652b4594bb9b4ba42beabb0affab4, type: 3}
+  energyCost: 1
+  cardRarity: 0
+  exhaustAfterUse: 0
+  moveAmount: 0
+  minRange: 1
+  maxRange: 3
+  effects:
+  - effectType: 32
+    amount: 1
+    duration: 0
+    floatValue: 0
+    effectCard: {fileID: 0}
+    cardPool: []
+    applyToAll: 0
+    targetType: 0
+    hitCount: 1
+  - effectType: 4
+    amount: 2
+    duration: 0
+    floatValue: 0
+    effectCard: {fileID: 0}
+    cardPool: []
+    applyToAll: 0
+    targetType: 0
+    hitCount: 1
+  targetType: 2
+  isEventOnly: 0
+  isInnate: 0
+  isSnecko: 0
+  bonusDamageMultiplier: 1
+  bonusBlockMultiplier: 1

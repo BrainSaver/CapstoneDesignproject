@@ -1,0 +1,404 @@
+{
+  "relics": [
+    {
+      "itemId": "gamblersCoin",
+      "nameKo": "승부사의 동전",
+      "nameEn": "Gambler's Coin",
+      "rarity": "Common",
+      "isEventExclusive": false,
+      "description": "상점 물품 25% 할인"
+    },
+    {
+      "itemId": "horseshoe",
+      "nameKo": "편자",
+      "nameEn": "Horseshoe",
+      "rarity": "Common",
+      "isEventExclusive": false,
+      "description": "이동 포인트 소모시 방어도 3획득"
+    },
+    {
+      "itemId": "chaliceOfAshes",
+      "nameKo": "재의 성배",
+      "nameEn": "Chalice of Ashes",
+      "rarity": "Common",
+      "isEventExclusive": false,
+      "description": "카드를 3장 소멸 당 체력회복 1"
+    },
+    {
+      "itemId": "bloodyBandage",
+      "nameKo": "피 묻은 붕대",
+      "nameEn": "Bloody Bandage",
+      "rarity": "Common",
+      "isEventExclusive": false,
+      "description": "전투 당 처음 체력을 잃을 때 체력 2 회복"
+    },
+    {
+      "itemId": "monksSandals",
+      "nameKo": "수도사의 샌들",
+      "nameEn": "Monk's Sandals",
+      "rarity": "Common",
+      "isEventExclusive": false,
+      "description": "원거리 상태에서 턴 종료 시 다음턴 카드 1장 추가 드로우"
+    },
+    {
+      "itemId": "warManual",
+      "nameKo": "전쟁 교본",
+      "nameEn": "War Manual",
+      "rarity": "Common",
+      "isEventExclusive": false,
+      "description": "전투 시작 시 힘 1 획득"
+    },
+    {
+      "itemId": "crackedHourglass",
+      "nameKo": "금이 간 모래시계",
+      "nameEn": "Cracked Hourglass",
+      "rarity": "Common",
+      "isEventExclusive": false,
+      "description": "턴 종료 시 손패가 없다면 다음 턴 카드 1장 추가 드로우"
+    },
+    {
+      "itemId": "saintsHandBone",
+      "nameKo": "성인의 손뼈",
+      "nameEn": "Saint's Hand Bone",
+      "rarity": "Common",
+      "isEventExclusive": false,
+      "description": "공격 카드가 적을 처치하면 방어도 5 획득"
+    },
+    {
+      "itemId": "holyOilFlask",
+      "nameKo": "성유병",
+      "nameEn": "Holy Oil Flask",
+      "rarity": "Common",
+      "isEventExclusive": false,
+      "description": "포션 사용시 카드 1장 드로우"
+    },
+    {
+      "itemId": "archbishopsGloves",
+      "nameKo": "대주교의 두꺼운 장갑",
+      "nameEn": "Archbishop's Thick Gloves",
+      "rarity": "Common",
+      "isEventExclusive": false,
+      "description": "최대 손패 +1"
+    },
+    {
+      "itemId": "priestsBelt",
+      "nameKo": "사제의 허리띠",
+      "nameEn": "Priest's Belt",
+      "rarity": "Common",
+      "isEventExclusive": false,
+      "description": "포션 최대 보유량 +1"
+    },
+    {
+      "itemId": "ironKneePads",
+      "nameKo": "철제 무릎 보호대",
+      "nameEn": "Iron Knee Pads",
+      "rarity": "Common",
+      "isEventExclusive": false,
+      "description": "근거리 상태에서 턴 종료 시 방어도 4 획득"
+    },
+    {
+      "itemId": "bellOfSilence",
+      "nameKo": "침묵의 종",
+      "nameEn": "Bell of Silence",
+      "rarity": "Common",
+      "isEventExclusive": false,
+      "description": "턴 종료 시 사용하지 않은 에너지당 방어도 5 획득"
+    },
+    {
+      "itemId": "solidBedrock",
+      "nameKo": "굳건한 반석",
+      "nameEn": "Solid Bedrock",
+      "rarity": "Common",
+      "isEventExclusive": false,
+      "description": "턴 종료 시 방어도가 15 이상 남아있다면, 다음 턴에 적이 부여하는 상태이상을 무효화 한다."
+    },
+    {
+      "itemId": "proteinShaker",
+      "nameKo": "프로틴 쉐이커",
+      "nameEn": "Protein Shaker",
+      "rarity": "Common",
+      "isEventExclusive": false,
+      "description": "휴식을 취할 때마다 최대체력이 4 증가"
+    },
+    {
+      "itemId": "organizedIndulgence",
+      "nameKo": "정리된 면죄부",
+      "nameEn": "Organized Indulgence",
+      "rarity": "Common",
+      "isEventExclusive": false,
+      "description": "카드를 구매할 때마다 최대 체력이 1증가"
+    },
+    {
+      "itemId": "bundleOfIndulgences",
+      "nameKo": "면죄부 뭉치",
+      "nameEn": "Bundle of Indulgences",
+      "rarity": "Common",
+      "isEventExclusive": false,
+      "description": "상점이나 이벤트에서 카드를 덱에서 제거 할 때마다 최대 체력이 2 증가"
+    },
+    {
+      "itemId": "easterEgg",
+      "nameKo": "부활절 달걀",
+      "nameEn": "Easter Egg",
+      "rarity": "Common",
+      "isEventExclusive": false,
+      "description": "첫 턴과 카드를 섞을 때마다 모든 적에게 무뎌짐 부여"
+    },
+    {
+      "itemId": "fadedStainedGlass",
+      "nameKo": "빛바랜 스테인드글라스",
+      "nameEn": "Faded Stained Glass",
+      "rarity": "Common",
+      "isEventExclusive": false,
+      "description": "방어도 없이 피해를 입으면 다음턴 방어도 12 부여"
+    },
+    {
+      "itemId": "clunkyIronPlate",
+      "nameKo": "투박한 철판",
+      "nameEn": "Clunky Iron Plate",
+      "rarity": "Common",
+      "isEventExclusive": false,
+      "description": "방어도를 획득할 때마다 무작위 적에게 피해 2"
+    },
+    {
+      "itemId": "spikedShield",
+      "nameKo": "가시방패",
+      "nameEn": "Spiked Shield",
+      "rarity": "Common",
+      "isEventExclusive": false,
+      "description": "방어도를 얻을떄마다 모든적 데미지 1"
+    },
+    {
+      "itemId": "pilgrimsStrawShoes",
+      "nameKo": "순례자의 짚신",
+      "nameEn": "Pilgrim's Straw Shoes",
+      "rarity": "Common",
+      "isEventExclusive": false,
+      "description": "지도에서 '물음표(이벤트)' 노드를 밟을 때마다 다음 전투 시작 시 힘을 1 증가. (전투 후 초기화)"
+    },
+    {
+      "itemId": "holyPouch",
+      "nameKo": "성스러운 주머니",
+      "nameEn": "Holy Pouch",
+      "rarity": "Common",
+      "isEventExclusive": false,
+      "description": "턴 종료 시 카드 1장을 무작위로 보존"
+    },
+    {
+      "itemId": "chainLink",
+      "nameKo": "사슬고리",
+      "nameEn": "Chain Link",
+      "rarity": "Common",
+      "isEventExclusive": false,
+      "description": "턴 종료시 남은 카드 갯수 만큼 방어도 증가"
+    },
+    {
+      "itemId": "ominousGloves",
+      "nameKo": "불길한 장갑",
+      "nameEn": "Ominous Gloves",
+      "rarity": "Common",
+      "isEventExclusive": true,
+      "description": "힘1획득 민첩 1감소"
+    },
+    {
+      "itemId": "ominousRope",
+      "nameKo": "불길한 밧줄",
+      "nameEn": "Ominous Rope",
+      "rarity": "Common",
+      "isEventExclusive": true,
+      "description": "민첩1획득 힘1감소"
+    },
+    {
+      "itemId": "crownOfThorns",
+      "nameKo": "순교자의 가시관",
+      "nameEn": "Crown of Thorns",
+      "rarity": "Rare",
+      "isEventExclusive": false,
+      "description": "체력이 30% 이하일 때 공격 카드 비용 -1"
+    },
+    {
+      "itemId": "inquisitionRecord",
+      "nameKo": "이단 심문 기록서",
+      "nameEn": "Inquisition Record",
+      "rarity": "Rare",
+      "isEventExclusive": false,
+      "description": "덱에 저주 카드 갯마큼 힘 상승"
+    },
+    {
+      "itemId": "heavyBible",
+      "nameKo": "육중한 성경책",
+      "nameEn": "Heavy Bible",
+      "rarity": "Rare",
+      "isEventExclusive": false,
+      "description": "카드를 소멸시킬 때마다, 해당 카드의 코스트 수치 3만큼 무작위 적에게 데미지"
+    },
+    {
+      "itemId": "asceticsWhip",
+      "nameKo": "고행자의 채찍",
+      "nameEn": "Ascetic's Whip",
+      "rarity": "Rare",
+      "isEventExclusive": false,
+      "description": "내 턴에 카드의 효과로 내 체력이 감소할 때마다 카드 1장을 뽑기"
+    },
+    {
+      "itemId": "goldenDumbbell",
+      "nameKo": "황금 아령",
+      "nameEn": "Golden Dumbbell",
+      "rarity": "Rare",
+      "isEventExclusive": false,
+      "description": "보유한 골드 300 마다 카드의 피해랑 1증가"
+    },
+    {
+      "itemId": "holyRing",
+      "nameKo": "신성한 반지",
+      "nameEn": "Holy Ring",
+      "rarity": "Rare",
+      "isEventExclusive": false,
+      "description": "적에게 피해를 받았을 때 방어도 수치와 동일해 피해를 받지 않으면 다음턴 2장 추가 드로우 (방어도가 남으면 발동X)"
+    },
+    {
+      "itemId": "maceOfPunishment",
+      "nameKo": "징벌의 철퇴",
+      "nameEn": "Mace of Punishment",
+      "rarity": "Rare",
+      "isEventExclusive": false,
+      "description": "2코스트 이상의 공격카드의 오버데미지를 남은 다른적에게 랜덤으로 데미지를 입힌다."
+    },
+    {
+      "itemId": "vibratingGauntlet",
+      "nameKo": "진동하는 건틀릿",
+      "nameEn": "Vibrating Gauntlet",
+      "rarity": "Rare",
+      "isEventExclusive": false,
+      "description": "이번 턴에 사용한 카드의 총 코스트가 4 이상일 때, 턴 종료 시 무작위 적에게 10 피해를 줍니다."
+    },
+    {
+      "itemId": "brokenRosary",
+      "nameKo": "끊어진 묵주",
+      "nameEn": "Broken Rosary",
+      "rarity": "Rare",
+      "isEventExclusive": false,
+      "description": "카드가 소멸될때마다 이번턴 동안 힘 1증가"
+    },
+    {
+      "itemId": "batteringRamCross",
+      "nameKo": "파성추 십자가",
+      "nameEn": "Battering Ram Cross",
+      "rarity": "Rare",
+      "isEventExclusive": false,
+      "description": "공격으로 적의 방어도를 0으로 파괴할 때마다, 즉시 코스트(에너지)를 1 회복"
+    },
+    {
+      "itemId": "blessedRosaryBeads",
+      "nameKo": "축복받은 묵주알",
+      "nameEn": "Blessed Rosary Beads",
+      "rarity": "Rare",
+      "isEventExclusive": false,
+      "description": "휴식처에서 카드를 강화 할떄 30% 확률로 랜덤 카드 추가 강화"
+    },
+    {
+      "itemId": "giantPumpkin",
+      "nameKo": "거대한 호박",
+      "nameEn": "Giant Pumpkin",
+      "rarity": "Rare",
+      "isEventExclusive": true,
+      "description": "죽음에 달하는 데미지를 1회 무효화 한다"
+    },
+    {
+      "itemId": "bucketOfLuck",
+      "nameKo": "행운의 물통",
+      "nameEn": "Bucket of Luck",
+      "rarity": "Rare",
+      "isEventExclusive": true,
+      "description": "획득 골드량 2배"
+    },
+    {
+      "itemId": "tornOfferingPouch",
+      "nameKo": "구멍 난 헌금 주머니",
+      "nameEn": "Torn Offering Pouch",
+      "rarity": "Rare",
+      "isEventExclusive": false,
+      "description": "상점에서 아무것도 구매하지 않고 나가면, 다음에 방문하는 상점의 모든 가격이 20% 할인"
+    },
+    {
+      "itemId": "waitingStatue",
+      "nameKo": "기다리는 석상",
+      "nameEn": "Waiting Statue",
+      "rarity": "Rare",
+      "isEventExclusive": true,
+      "description": "첫턴에 카드를 2장 덜 뽑지만 다음턴부터 한장씩 계속 추가 드로우 한다"
+    },
+    {
+      "itemId": "archbishopsSeal",
+      "nameKo": "대주교의 인장",
+      "nameEn": "Archbishop's Seal",
+      "rarity": "Rare",
+      "isEventExclusive": false,
+      "description": "카드 제거 비용 50% 감소"
+    },
+    {
+      "itemId": "heavyCenser",
+      "nameKo": "무거운 향로",
+      "nameEn": "Heavy Censer",
+      "rarity": "Rare",
+      "isEventExclusive": false,
+      "description": "턴종료시 코스트 사용의 합이 홀수면 방어도 5 짝수면 랜덤한 적에게 7 데미지"
+    },
+    {
+      "itemId": "lostGospel",
+      "nameKo": "잃어버린 복음서",
+      "nameEn": "Lost Gospel",
+      "rarity": "Legendary",
+      "isEventExclusive": false,
+      "description": "전투 시작시 무작위 카드 코스트 0"
+    },
+    {
+      "itemId": "cursedCrown",
+      "nameKo": "저주받은 왕관",
+      "nameEn": "Cursed Crown",
+      "rarity": "Legendary",
+      "isEventExclusive": false,
+      "description": "코스트 1증가, 드로우 카드 1 감소"
+    },
+    {
+      "itemId": "vowOfPoverty",
+      "nameKo": "청빈의 맹세",
+      "nameEn": "Vow of Poverty",
+      "rarity": "Legendary",
+      "isEventExclusive": false,
+      "description": "매 턴 시작 시 에너지를 1 추가로 얻습니다. 단, 더 이상 전투 승리로 골드를 획득할 수 없습니다. (이벤트나 다른 유물로 얻는 골드는 가능)"
+    },
+    {
+      "itemId": "hereticsNail",
+      "nameKo": "이단의 못",
+      "nameEn": "Heretic's Nail",
+      "rarity": "Legendary",
+      "isEventExclusive": false,
+      "description": "코스트 최대 1 증가 단, 더 이상 휴식처에서 카드를 강화 불가능"
+    },
+    {
+      "itemId": "heavyShackles",
+      "nameKo": "무거운 족쇄",
+      "nameEn": "Heavy Shackles",
+      "rarity": "Legendary",
+      "isEventExclusive": false,
+      "description": "코스트 최대 1 증가 단, 같은 계열(공격, 스킬)카드 연속 사용 불가능"
+    },
+    {
+      "itemId": "tornCassock",
+      "nameKo": "찢어진 수단",
+      "nameEn": "Torn Cassock",
+      "rarity": "Legendary",
+      "isEventExclusive": false,
+      "description": "방어도 없이 피해를 입으면 다음턴 첫 공격카드 50 증가"
+    },
+    {
+      "itemId": "embers",
+      "nameKo": "잔불",
+      "nameEn": "Embers",
+      "rarity": "Legendary",
+      "isEventExclusive": true,
+      "description": "사망시 최대체력 절반을 잃고 부활 (1회성)"
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b281e37e863f699409a288966ba9f2e6, type: 3}
+  m_Name: blue_lantern
+  m_EditorClassIdentifier: Assembly-CSharp::EventData
+  eventTitle: "\uD478\uB978 \uB4F1\uBD88"
+  eventImage: {fileID: 0}
+  eventText: "\uB2F9\uC2E0\uC740 \uACF5\uC911\uC5D0 \uB465\uB465 \uB5A0\uB2E4\uB2C8\uBA70
+    \uD478\uB978\uBD88\uC744 \uBBF8\uCE5C\uB4EF\uC774 \uB0B4\uBFDC\uB294 \uB4F1\uBD88\uC744
+    \uBC1C\uACAC\uD588\uC2B5\uB2C8\uB2E4."
+  choices:
+  - choiceTitle: "\uB4F1\uBD88\uC5D0 \uB2E4\uAC00\uAC04\uB2E4"
+    choiceDescription: "\uC120\uD0DD\uD55C \uCE74\uB4DC 1\uC7A5\uC744 \uC81C\uAC70\uD569\uB2C8\uB2E4.\r\n"
+    effects:
+    - effectType: 6
+      effectAmount: 0
+      stringData: Choice
+  - choiceTitle: "\uBD88\uAF43\uC5D0 \uC190\uC744 \uB123\uB294\uB2E4:"
+    choiceDescription: "\uC791\uC704 \uCE74\uB4DC 1\uC7A5\uC774 \uC5F4\uD654 \uB429\uB2C8\uB2E4.
+      \uB371\uC758 \uBB34\uC791\uC704 \uCE74\uB4DC 2\uC7A5\uC744 \uAC15\uD654\uD569\uB2C8\uB2E4.\r\n"
+    effects: []
+  - choiceTitle: " \uB4F1\uBD88\uC744 \uAE68\uD2B8\uB9AC\uAE30"
+    choiceDescription: "\uC774\uBC88 \uC9C0\uB3C4\uC5D0\uC11C \uB0A8\uC740 \uBAA8\uB4E0
+      \uC804\uD22C\uC5D0\uC11C \uCCAB \uD134\uC5D0 \uC5D0\uB108\uC9C0\uB97C +1 \uB354
+      \uC5BB\uC2B5\uB2C8\uB2E4."
+    effects: []

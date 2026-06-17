@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b281e37e863f699409a288966ba9f2e6, type: 3}
+  m_Name: Puppet_show
+  m_EditorClassIdentifier: Assembly-CSharp::EventData
+  eventTitle: "\uC778\uD615\uADF9"
+  eventImage: {fileID: 21300000, guid: b79cbeadd6f3e3e41a576acbad86ceea, type: 3}
+  eventText: "\uB0A1\uC740\uC740 \uB098\uBB34 \uBB34\uB300 \uC704\uC5D0\uC11C \uC2E4\uB3C4
+    \uC5C6\uB294 \uC778\uD615\uB4E4\uC774 \uC0AC\uC81C\uC758 \uACFC\uAC70\uB97C \uAE30\uAD34\uD558\uAC8C
+    \uC5F0\uAE30\uD558\uACE0 \uC788\uC2B5\uB2C8\uB2E4. \r\n\uBB34\uB300 \uC55E\uBC14\uB2E5\uC5D0\uB294
+    \uAD74\uB7EC\uB2E4\uB2C8\uB294 \uC804\uB2E8\uC9C0\uC640 \uB0A1\uC740 \uB4F1\uBD88\uC774
+    \uB193\uC5EC \uC788\uC2B5\uB2C8\uB2E4.\r\n"
+  choices:
+  - choiceTitle: "\uC778\uD615\uC758 \uBAA9\uC744 \uAEBE\uB294\uB2E4.  "
+    choiceDescription: "\uCD5C\uB300\uCCB4\uB825 8\uC744 \uC783\uACE0 \uB79C\uB364\uD55C
+      \uACF5\uACA9 \uCE74\uB4DC 2\uC7A5\uC744 \uAC15\uD654"
+    effects:
+    - effectType: 11
+      effectAmount: 8
+      stringData: 
+    - effectType: 7
+      effectAmount: 2
+      stringData: Random:Attack
+  - choiceTitle: "\uC778\uD615\uADF9\uC744 \uB05D\uAE4C\uC9C0 \uAD00\uB78C\uD55C\uB2E4"
+    choiceDescription: "\uCD5C\uB300\uCCB4\uB825 8\uC744 \uC783\uACE0 \uB79C\uB364\uD55C
+      \uACF5\uACA9 \uCE74\uB4DC 2\uC7A5\uC744 \uAC15\uD654"
+    effects:
+    - effectType: 11
+      effectAmount: 8
+      stringData: 
+    - effectType: 7
+      effectAmount: 2
+      stringData: Random:Skill

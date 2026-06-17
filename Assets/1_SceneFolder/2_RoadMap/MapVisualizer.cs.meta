@@ -1,0 +1,24 @@
+fileFormatVersion: 2
+guid: ddd5fdac84baa7b45b9dd6827acb403e
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - generator: {instanceID: 0}
+  - nodePrefab: {instanceID: 0}
+  - linePrefab: {instanceID: 0}
+  - mapParent: {instanceID: 0}
+  - mapBackground: {instanceID: 0}
+  - startSprite: {fileID: 7451728535543597760, guid: eff598a745e604e4bb643c6a163de092, type: 3}
+  - monsterSprite: {fileID: 2355208261056370737, guid: eff598a745e604e4bb643c6a163de092, type: 3}
+  - shopSprite: {fileID: -6038488878052901522, guid: eff598a745e604e4bb643c6a163de092, type: 3}
+  - eventSprite: {fileID: -8919668872048428618, guid: eff598a745e604e4bb643c6a163de092, type: 3}
+  - healingSprite: {fileID: 8578853466193318120, guid: eff598a745e604e4bb643c6a163de092, type: 3}
+  - treasureSprite: {fileID: -4754616880523842536, guid: eff598a745e604e4bb643c6a163de092, type: 3}
+  - bossSprite: {fileID: -1087759160144067383, guid: eff598a745e604e4bb643c6a163de092, type: 3}
+  - defaultSprite: {fileID: -8919668872048428618, guid: eff598a745e604e4bb643c6a163de092, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
