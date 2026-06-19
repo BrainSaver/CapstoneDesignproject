@@ -1,5 +1,5 @@
-#개인 발표영상 
-##20212972 길동현 https://youtu.be/jxHpAtsAEWg (캡스톤1내용) <br>
+# 개인 발표영상 <br>
+20212972 길동현 https://youtu.be/jxHpAtsAEWg (캡스톤1내용) <br>
 20212980 김남영 https://youtu.be/-YJKEKHp-xU <br>
 20213005 구진근 <br>
 
