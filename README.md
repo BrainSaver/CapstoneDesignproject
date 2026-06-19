@@ -1,7 +1,7 @@
-개인 발표영상 
-20212972 길동현 https://youtu.be/jxHpAtsAEWg (캡스톤1내용)
-20212980 김남영 https://youtu.be/-YJKEKHp-xU
-20213005 구진근 
+#개인 발표영상 
+##20212972 길동현 https://youtu.be/jxHpAtsAEWg (캡스톤1내용) <br>
+20212980 김남영 https://youtu.be/-YJKEKHp-xU <br>
+20213005 구진근 <br>
 
 # 1인칭 덱빌딩 로그라이크 (First-Person view Deckbuilder Roguelike)
 
