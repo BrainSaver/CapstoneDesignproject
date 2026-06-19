@@ -1,3 +1,8 @@
+개인 발표영상 
+20212972 길동현 https://youtu.be/jxHpAtsAEWg (캡스톤1내용)
+20212980 김남영 https://youtu.be/-YJKEKHp-xU
+20213005 구진근 
+
 # 1인칭 덱빌딩 로그라이크 (First-Person view Deckbuilder Roguelike)
 
 > **"주먹 쓰는 성직자"** — 타격감과 유머가 결합된 PC 기반 숏타임 로그라이크 덱빌딩 게임
